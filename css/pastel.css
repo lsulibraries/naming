@@ -284,7 +284,13 @@ span.listCategory {
     margin-left: 5px;
 }
 
-
+.screen-reader-text {
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
 
 .roomNav {
     color: #474747!important;
@@ -1801,7 +1807,7 @@ transition-duration: .2s;
 }
 
 .iconTitle {
-    font-size: 8px;
+    font-size: 10px;
     text-transform: uppercase;
     letter-spacing:2px;
 position: absolute;
