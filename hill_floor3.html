@@ -1,6 +1,5 @@
 <!DOCTYPE HTML>
-<html>
-<head>
+<html lang="en"><head>
   <link rel="stylesheet" type="text/css" href="css/hamburgers.css" /><link rel="icon" href="favicon_purple.ico">
   <link rel="stylesheet" type="text/css" href="css/pastel.css" />
   <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
