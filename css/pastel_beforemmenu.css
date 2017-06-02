@@ -1,0 +1,329 @@
+
+/* web fonts */
+
+@import 'https://fonts.googleapis.com/css?family=Open+Sans|Roboto:100,300,400,600,700';
+
+/* global styles */
+
+html,
+body {
+margin: 0px;
+font-family: Roboto;
+}
+
+.libContainer{
+display: flex;
+flex-direction: row;
+height: 100%;
+}
+
+.libPage{
+width: calc(100% - 86px);
+margin-left: 86px;
+}
+
+.libSidebar{
+display: flex;
+flex-direction: column;
+background-color: #474747;
+width: 86px;
+position: fixed;
+height: 100%;
+}
+
+.libSidebar_item{
+height: 86px;
+border-bottom: 1px solid #393939;
+}
+
+.libSidebar_item:last-child{
+height: 86px;
+border-bottom: 0px;
+border-top: 1px solid #393939;
+align-self: flex-end;
+width: 86px;
+position: absolute;
+bottom: 0px;
+}
+
+.libHeader{
+    display: flex;
+    background-color: #f2f2f2;
+    padding: 0px;
+    color: #474747;
+    width: auto;
+    height: 260px;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 86px;
+    padding-right: 86px;
+}
+
+.libContent{
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding-left: 86px;
+padding-right: 86px;
+align-items: center;
+}
+
+.libCentral{
+background-image: url(http://i.imgur.com/BJtKhwV.png);
+width: 100%;
+max-width: 1440px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.libAddition{
+width: 100%;
+max-width: 1440px;
+height: 86px;
+margin-top: 2px;
+}
+
+.libAddition_item{
+float: left;
+width: calc(20% - 2px);
+margin-right: 2px;
+background-color: #f2f2f2;
+height: 100%;
+}
+
+.libAddition_item:last-child{
+margin-right: 0px;
+}
+
+.libGrid{
+height: 900px;
+width: 100%;
+max-width: 1440px;
+}
+
+.libGrid_item{
+float: left;
+width: calc(20% - 2px);
+margin-right: 2px;
+background-color: #f2f2f2;
+height: 200px;
+margin-top: 2px;
+}
+
+.libPage_divider{
+background-image: url(http://i.imgur.com/BJtKhwV.png);
+margin-top: 2px;
+width: 100%;
+max-width: 1440px;
+height: 20px;
+}
+
+.imageMap{
+position: relative;
+}
+
+.imageMap .hotspots {
+width: 100%;
+height: 100%;
+position: absolute;
+left: 0;
+top: 0;
+}
+
+.imageMap{
+margin: 30px;
+}
+
+.imageMap img{
+display:block;
+width:100%;
+}
+
+.room{
+position: absolute;
+background: rgba(70, 29, 124, 0.50);
+z-index: 200;
+filter: alpha(opacity=20);
+padding: 1px;
+-webkit-transition: 0.75s;
+-moz-transition: 0.75s;
+-o-transition: 0.75s;
+transition: 0.75s;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.room:hover{
+background:  rgba(52, 21, 93, 0.68);
+}
+
+#graduateReading{
+    left: 76.6%;
+    top: 57.4%;
+    width: 21%;
+    height: 23.7%;
+}
+
+#hillLecture{
+    left: 2.3%;
+    top: 57.4%;
+    width: 30.7%;
+    height: 23.7%;
+}
+
+#hillLobby{
+    left: 38%;
+    top: 65.4%;
+    width: 24%;
+    height: 16%;
+}
+
+#hillDonor {
+    left: 67.2%;
+    top: 63.6%;
+    width: 9.1%;
+    height: 18%;
+}
+
+#hillExhibits {
+    left: 38%;
+    top: 45.6%;
+    width: 23.8%;
+    height: 19%;
+}
+
+#hillEvent{
+left: 2.8%;
+    top: 57.7%;
+    width: 34%;
+    height: 24%;
+}
+
+.roomTitle{
+    text-transform: uppercase;
+    padding: 20px;
+    font-weight: 500;
+    color: white;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.mapTitle {
+    font-size: 22px;
+    text-align: center;
+    padding-top: 8%;
+    letter-spacing: 2px;
+    color: #474747;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.mapSubtitle {
+    font-size: 13px;
+    text-align: center;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: white;
+    background: #474747;
+    padding: 4px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.libHeader_logo, .libHeader_menu{
+max-width: 1440px;
+width: 100%;
+}
+
+.libHeader_logo img{
+width: 300px;
+position: relative;
+top: 180px;
+left: 0px;
+}
+
+.libHeader_menu{
+position: relative;
+top: 185px;
+left: 0px;
+}
+
+.libHeader_menu a{
+text-decoration: none;
+color: #474747;
+text-transform: uppercase;
+letter-spacing: 2px;
+font-size: 12px;
+margin-right: 20px;
+}
+
+.libAddition, .libPage_divider{
+display: none;
+}
+
+@media (max-width: 1400px) {
+
+}
+@media (max-width: 1200px) {
+.libContent, .libHeader{
+padding-left: 12px;
+padding-right: 12px;
+}
+
+@media (max-width: 760px) {
+.libHeader_logo img{
+top: 68px;
+left: 10px;
+width: 30%;
+}
+
+.libAddition, .libPage_divider{
+display: block;
+}
+.libHeader{
+height: 100px;
+}
+.libSidebar, .libHeader_menu{
+display: none;
+}
+.libPage{
+margin-left: 0px;
+width: 100%;
+}
+.libGrid_item {
+height: 210px;
+width: calc(33.333% - 2px);
+}
+.roomTitle{
+font-size: 10px;
+letter-spacing: 1px;
+}
+.imageMap {
+    margin: 10px;
+}
+.mapTitle{
+font-size: 10px;
+}
+.mapSubtitle{
+font-size: 8px;
+padding: 1px;
+}
+
+
+}
+
+@media (max-width: 450px) {
+.libAddition{
+height: 66px;
+}
+.libGrid_item {
+height: 250px;
+width: 100%;
+}
+.roomTitle{
+font-size: 6px;
+letter-spacing: 1px;
+}
+}
