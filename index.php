@@ -68,7 +68,7 @@
              </span>
           </button>
         </div>
-        <div class="libHeader_logo"><img src="images/libraries_logo.png"> 
+        <div class="libHeader_logo"><img src="images/libraries_logo.png" alt="LSU Libraries"> 
         </div>
         <div class="libHeader_menu">
           <div class="libTitle">Naming Opportunities</div>
