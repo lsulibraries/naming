@@ -126,7 +126,7 @@ html,
 body {
 margin: 0px;
 font-family: Roboto;
-background: white;
+    background: #3b3b3f;
 color: #474747;
 }
 
@@ -154,7 +154,7 @@ color: #474747;
 .libSidebar{
 display: flex;
 flex-direction: column;
-background-color: #474747;
+background-color: hsla(240, 3%, 20%, 1);
 width: 116px;
 position: fixed;
 height: 100%;
@@ -1993,7 +1993,6 @@ bottom: 3px;
 
 .roomImg{
     width: 100%;
-max-width: 1440px;
 filter:blur(5px) brightness(0.9);
 -webkit-transition: 0.25s;
 -moz-transition: 0.25s;
@@ -2035,8 +2034,6 @@ align-items: center;
 justify-content: center;
 position:relative;
     height: auto;
-    margin: 10px 86px 10px 86px;
-    max-width: 1440px;
 align-self: center;
 overflow: hidden;
 }
