@@ -13,7 +13,7 @@
   <div class="libContainer">
     <div class="libSidebar Fixed">
       <a href="http://lib.lsu.edu" target="_blank">
-        <div class="libSidebar_item"><img src="images/LSU Libraries_vertical_white_PNG.png" class="libsideBar_logo" alt="LSU Libraries"> 
+        <div class="libSidebar_item"><img src="images/LSU Libraries_vertical_dark.png" class="libsideBar_logo" alt="LSU Libraries"> 
         </div>
       </a>
       <a href="#about">

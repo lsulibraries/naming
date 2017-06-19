@@ -154,8 +154,9 @@ color: #474747;
 .libSidebar{
 display: flex;
 flex-direction: column;
-background-color: hsla(240, 3%, 20%, 1);
-width: 116px;
+    background-color: #f2f2f2;
+    border-right: 1px solid #c7c7c7;
+width: 86px;
 position: fixed;
 height: 100%;
 top: 0px;
@@ -210,7 +211,7 @@ a.donateLink{
 .donateButton {
     position: absolute;
     bottom: 5px;
-    right: 0px;
+    right: -70px;
     padding: 16px;
     text-transform: uppercase;
     display: flex;
@@ -1687,8 +1688,7 @@ color: #a28ebd!important;
 }
 
 .libHeader_logo, .libHeader_menu{
-max-width: 1440px;
-width: 100%;
+    width: 100%;
 }
 
 .libHeader_logo img{
@@ -1800,7 +1800,7 @@ top: 0px;
 
 .iconLarge{
 font-family: FontAwesome Regular;
-color: #808080;
+color: #474747;
 -webkit-transition-duration: .2s; /* Safari */
 transition-duration: .2s;
 }
@@ -1814,6 +1814,7 @@ font-size: 10px;
     left: 0px;
     text-align: center;
     width: 100%;
+    color: #474747;
 }
 
 nav i{
@@ -2321,157 +2322,7 @@ align-content: center;
     font-weight: 700;
 }
 
-@media (max-width: 1200px) {
 
-
-.donateButton{
-        right: -20px;
-    padding: 7px 21px 7px 21px;
-    font-size: 0.8em;
-}
-.dropDown > a{
-   pointer-events: none;
-   cursor: default;
-}
-
-.roomText {
-    min-width: 160px;
-}
-
-.heroDetails{
-    right: 12px;
-}
-
-.heroTitle{
-    left: 1%;
-}
-.roomNav{
-right: 10px;
-}
-
-.roomTitle {
-    font-weight: 900;
-font-size: 12px;
-line-height: 12px;
-}
-
-
-.libHeader{
-    height: 72px;
-}
-
-.roomHero {
-display: flex;
-align-items: center;
-justify-content: center;
-position:relative;
-    height: auto;
-    width: calc(100% - 24px);
-    margin: 0 auto;
-padding: 0px;
-}
-
-
-.rightFooter_item {
-    text-transform: uppercase;
-    font-size: 7px;
-    letter-spacing: 2px;
-    color: grey;
-    width: 98%;
-    position: absolute;
-    bottom: 10px;
-    left: 12px;
-    text-align: center;
-    margin: 0 auto;
-}
-
-
-
-.belowFooter {
-    padding-bottom: 60px;
-}
-
-.belowFooter_item {
-width:100%;
-}
-
-
-
-.libGrid_item {
-width: calc(33.333% - 2px);
-}
-
-.libGrid_item:nth-child(3n+2) {
-    margin-right: 0px;
-    width: 33.33333%;
-}
-
-.mapControls {
-display:none;
-}
-
-.foldControls {
-display:none;
-}
-
-.roomText{
-padding-bottom: 30px;
-font-size: .6em;
-}
-
-.libTitle{
-margin-left: 22px;
-}
-
-.libContent, .libHeader{
-padding-left: 12px;
-padding-right: 12px;
-}
-.libSidebar{
-display: none;
-}
-.libPage{
-margin-left: 0px;
-width: 100%;
-height:100%;
-}
-
-.menuIcon{
-display: inline-block;
-}
-
-#my-icon{
-  top:-3px!important;
-  left: 0px !important;
-}
-
-.libHeader_menu {
-    position: relative;
-    top: -2px;
-    left: 11px;
-width: calc(100% - 68px);
-}
-
-
-.libHeader_logo img {
-    width: 180px;
-    position: relative;
-    top: 10px;
-    padding-top: 6px;
-    padding-bottom: 8px;
-    left: 68px;
-}
-
-.libFooter{
-margin-top:100px;
-}
-
-.rightFooter{display:none;}
-.mobileSelect2{
-display:flex;
-}
-
-}
 
 @media (max-width: 836px) {
 
