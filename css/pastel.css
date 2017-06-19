@@ -126,7 +126,7 @@ html,
 body {
 margin: 0px;
 font-family: Roboto;
-    background: #3b3b3f;
+    background: #ffffff;
 color: #474747;
 }
 
@@ -2036,6 +2036,7 @@ justify-content: center;
 position:relative;
     height: auto;
 align-self: center;
+    background: #8a786d;
 overflow: hidden;
 }
 
