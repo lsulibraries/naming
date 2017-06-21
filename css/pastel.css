@@ -141,6 +141,38 @@ height: 100%;
     flex-direction: column;
 }
 
+.singleIcon {
+    position: absolute;
+    top: 140px;
+    left: 8px;
+    background: white;
+    z-index: 2;
+    height: 30px;
+    width: 30px;
+    padding: 20px;
+    color: grey;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secondIcon {
+    position: absolute;
+    top: 219px;
+    left: 8px;
+    background: white;
+    z-index: 2;
+    height: 30px;
+    width: 30px;
+    padding: 20px;
+    color: grey;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .roomIcon {
 position: absolute;
 right: 10px;

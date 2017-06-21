@@ -11,7 +11,11 @@
 </head>
 <body>
   <div class="libContainer">
+  <div class="menuIcons">
+    <a href="#menu2"><div class="singleIcon">back home</div></a>
+    <a href="#roomNavLeft"><div class="singleIcon secondIcon">back home</div></a>
 
+  </div>
     <div class="libPage">
       <div class="libHeader">
         <a href="#roomNav">
