@@ -24,8 +24,8 @@
 a {
     color: inherit;
     text-decoration: none;
-}
 
+}
 @media (max-width: 2000px) {
 
 .smallMap {
@@ -132,6 +132,7 @@ margin: 0px;
 font-family: Roboto;
     background: #ffffff;
 color: #474747;
+overflow-x: hidden;
 }
 
 .libContainer{
@@ -151,29 +152,44 @@ img.libLogo {
 
 img.newmap {
     position: relative;
+    top: -10px;
         width:100%;
 }
 
+.invisible{
+    opacity: 0;
+}
+
+.mapWrap{
+    z-index: 3;
+}
+
+.zoomImg{
+padding-left:30%;
+}
+
 .mapSection{
-        display: flex;
+    display: flex;
     flex-direction: row;
     width:100%;
-background-image:url(../images/photos/middletonDark.jpg);
-background-size: cover;
+    background-image:url(../images/photos/middletonDark.jpg);
+    background-size: cover;
     justify-content: center;
+        -webkit-transition-duration: 0.25s; /* Safari */
+    transition-duration: 0.25s;
 }
 
 .header{
     background: #303030;
         border-bottom: 1px solid;
+                -webkit-transition-duration: 0.25s; /* Safari */
+    transition-duration: 0.25s;
 }
 
 .map {
     width: 45%;
     position: relative;
     margin-left: 10%;
-        top: -60px;
-    margin-top: 50px;
 }
 
 .mapHeader{
@@ -444,18 +460,25 @@ span.listCategory {
     margin-bottom: 30px;
 }
 
-.mapWrap{
-    z-index: 5;
-}
-
 .mapKey {
     margin-bottom: .5vw;
     font-size: .84vw;
 }
-
+.lessOpacity{
+    opacity: 0.1;
+}
 .key {
     display: flex;
     align-items: center;
+}
+
+.darken{
+  filter: brightness(.5) grayscale(20%);
+}
+
+.undarken{
+  filter: brightness(1.0) grayscale(0%) !important;
+  opacity: .2;
 }
 
 .keyText {

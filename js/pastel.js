@@ -6,10 +6,30 @@
 
   $('img.newmap')
     .wrap('<span class="mapWrap" style="display:inline-block"></span>')
-    .css('display', 'block')
     .parent()
     .zoom({ on:'grab' });
 
+
+$('span.mapWrap').mousedown(
+  function(){
+            $("img.zoomImg").appendTo(".libContainer");
+
+        $('div.map').children().not($('.mapWrap')).addClass("lessOpacity");
+        $('img.newmap').addClass("invisible");
+        $('div.mapSection, .header').addClass("darken");
+        $('div.mapSection img.zoomImg').addClass("undarken");
+
+      }
+  );
+
+$('html').mouseup(
+  function(){
+        $('div.map').children().removeClass("lessOpacity");
+        $('img.newmap').removeClass("invisible");
+        $('div.libContainer').contents().removeClass("darken");
+
+      }
+  );
 
 $(".floorChange").hover(
   function() {
