@@ -14,22 +14,52 @@
     <div class="header"><a href="#menu2"><img src="images/librariesWhite.png" class="libLogo"></a></div>
 
     <div class="mapSection">
-      <div class="keys">       
-       <div class="mapLegend">
-          <div class="mapKey">
-            <div class="key key1">
-              <div class="keyNumber">1</div>
-              <div class="keyText">
-                <div class="keyTitle">Concourse</div>
-                <div class="keySubtitle">4,462 sq ft. (Includes Monumental Stairs & Tech Wall)</div>
-              </div>
-            </div>
-          </div>
-        </div></div>
+      
       <div class="map">
         <div class="mapHeader">
           <h1>Middleton Library</h1>
           <h2>25 Naming Opportunities</h2>
+<div class="keys">       
+       <div class="mapLegend">
+
+          <a href="#test">
+            <div class="mapKey">
+              <div class="key key1">
+                <div class="keyNumber">1</div>
+                <div class="keyText">
+                  <div class="keyTitle">Concourse</div>
+                  <div class="keySubtitle">4,462 sq ft. (Includes Monumental Stairs & Tech Wall)</div>
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <a href="#test">
+            <div class="mapKey">
+              <div class="key key2">
+                <div class="keyNumber">2</div>
+                <div class="keyText">
+                  <div class="keyTitle">Reading Room</div>
+                  <div class="keySubtitle">2,787 sq ft</div>
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <a href="#test">
+            <div class="mapKey">
+              <div class="key key1">
+                <div class="keyNumber">3</div>
+                <div class="keyText">
+                  <div class="keyTitle">Concourse</div>
+                  <div class="keySubtitle">4,462 sq ft. (Includes Monumental Stairs & Tech Wall)</div>
+                </div>
+              </div>
+            </div>
+          </a>                              
+        </div>
+        </div>
+          
         </div>
         <img src="images/newmap.png" class="newmap">
         <div class="mapText">The Middleton Library renovations campaign is one of LSU's most exciting priorities of the 2017-2018 academic year. A revitalized Middleton Library will immediately elevate LSU's academic experience and intellectual life, and strengthen the university's ability to attract and retain the brightest and most talented students and faculty. Below is a list of nameable spaces scheduled for renovation. It is the generosity of supporters like you that will enable LSU to transform Middleton Library into a 21st century research library.</div>

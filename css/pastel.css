@@ -21,6 +21,10 @@
     width: 350px;
 }
 
+a {
+    color: inherit;
+    text-decoration: none;
+}
 
 @media (max-width: 2000px) {
 
@@ -438,6 +442,10 @@ span.listCategory {
     margin-bottom: 30px;
 }
 
+.mapKey {
+    margin-bottom: 4px;
+}
+
 .key {
     display: flex;
     align-items: center;
@@ -445,10 +453,10 @@ span.listCategory {
 
 .keys {
     position: absolute;
-    left: 14.6%;
-    top: 19%;
+    top: 99%;
     color: white;
     font-size: 11px;
+    width: 200%;
 }
 
 .keyTitle {
@@ -459,11 +467,27 @@ span.listCategory {
     background: #303030;
     padding: 6px 10px;
     margin-right: 6px;
-    border-radius: 5px;
+    border-radius: 2px;
 }
 
 .key1 .keyNumber{
-        border-right: 12px solid #d6ebfe;
+    border-right: 12px solid #d6ebfe;
+}
+
+.key2 .keyNumber{
+    border-right: 12px solid #e7ffcb;
+}
+
+.key1:hover > .keyNumber{
+    border-right: 20px solid  #d6ebfe;
+    -webkit-transition-duration: 0.25s; /* Safari */
+    transition-duration: 0.25s;
+}
+
+.key2:hover > .keyNumber{
+    border-right: 20px solid #e7ffcb ;
+    -webkit-transition-duration: 0.25s; /* Safari */
+    transition-duration: 0.25s;
 }
 
 .mapNav_label {
