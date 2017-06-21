@@ -70,6 +70,20 @@ $("#roomNav").mmenu({
 
 });
 
+$("#roomNavLeft").mmenu({
+
+   "extensions": [
+      'pagedim-black',
+      'border-full',
+'effect-menu-slide',
+   ],
+   "iconPanels": true,
+"navbar": {
+"title": "Map Navigation",
+}
+
+});
+
 $("#research").mmenu({
 
    "extensions": [

@@ -12,34 +12,17 @@
 <body>
   <div class="libContainer">
     <div class="libSidebar Fixed">
-      <a href="http://lib.lsu.edu" target="_blank">
+      <a href="#menu2">
         <div class="libSidebar_item"><img src="images/LSU Libraries_vertical_dark.png" class="libsideBar_logo" alt="LSU Libraries"> 
         </div>
       </a>
-      <a href="#about">
+      <a href="#roomNavLeft">
         <div class="libSidebar_item">
-          <div class="iconLarge"><i class="fa fa-list-alt fa-lg"></i></div>
-          <div class="iconTitle">About</div>
+          <div class="iconLarge"><i class="fa fa-map fa-lg"></i></div>
+          <div class="iconTitle">Rooms</div>
         </div>
       </a>
-      <a href="#libraries">
-        <div class="libSidebar_item">
-          <div class="iconLarge"><i class="fa fa-institution fa-lg"></i></div>
-          <div class="iconTitle">Libraries </div>
-        </div>
-      </a>
-      <a href="#research">
-        <div class="libSidebar_item">
-          <div class="iconLarge"><i class="fa fa-book fa-lg"></i></div>
-          <div class="iconTitle">Research </div>
-        </div>
-      </a>
-      <a href="#services">
-        <div class="libSidebar_item">
-          <div class="iconLarge"><i class="fa fa-handshake-o  fa-lg"></i></div>
-          <div class="iconTitle">Services</div>
-        </div>
-      </a>
+
       <div class="libSidebar_bottomRegion">
         <div class="libSidebar_item lastItem">
           <a href="http://my.lsu.edu">
@@ -467,7 +450,7 @@
       <ul>
         <li class="mm-divider">Middleton Library</li>
       <li><a href="https://securelb.imodules.com/s/1585/social.aspx?sid=1585&gid=1&pgid=708&cid=1508" target="_blank" class="giveMobile"><i class="fa fa-gift fa-1x"></i>Give Now</a></li>
-<li><a href="contact.html"><i class="fa fa-phone" aria-hidden="true"></i>Contact Us</a></li>
+        <li><a href="contact.html"><i class="fa fa-phone" aria-hidden="true"></i>Contact Us</a></li>
         <li><a href="middleton_floor1.html"><i class="fa fa-map fa-1x"></i>First Floor</a></li>
         <li><a href="middleton_floor2.html"><i class="fa fa-map fa-1x"></i>Second Floor</a></li>
         <li><a href="quietStudy.html"><i class="fa fa-map-marker fa-1x"></i>Reading Room</a></li>
@@ -478,11 +461,27 @@
                 <li><a href="classroom.html"><i class="fa fa-map-marker fa-1x"></i>Classrooms</a></li>
         <li><a href="staffConference.html"><i class="fa fa-map-marker fa-1x"></i>Staff Conference Room</a></li>
         <li><a href="computerLab.html"><i class="fa fa-map-marker fa-1x"></i>Computer Lab</a></li>
-
-
       </ul>
     </nav>
 
+
+    <nav id="roomNavLeft">
+      <ul>
+        <li class="mm-divider">Middleton Library</li>
+      <li><a href="https://securelb.imodules.com/s/1585/social.aspx?sid=1585&gid=1&pgid=708&cid=1508" target="_blank" class="giveMobile"><i class="fa fa-gift fa-1x"></i>Give Now</a></li>
+        <li><a href="contact.html"><i class="fa fa-phone" aria-hidden="true"></i>Contact Us</a></li>
+        <li><a href="middleton_floor1.html"><i class="fa fa-map fa-1x"></i>First Floor</a></li>
+        <li><a href="middleton_floor2.html"><i class="fa fa-map fa-1x"></i>Second Floor</a></li>
+        <li><a href="quietStudy.html"><i class="fa fa-map-marker fa-1x"></i>Reading Room</a></li>
+        <li><a href="groupDoorless.html"><i class="fa fa-map-marker fa-1x"></i>Doorless Study Rooms</a></li>
+        <li><a href="collaboration_first.html"><i class="fa fa-map-marker fa-1x"></i>Collaborative Space First Floor</a></li>
+        <li><a href="collaboration_second.html"><i class="fa fa-map-marker fa-1x"></i>Collaborative Space Second Floor</a></li>
+        <li><a href="groupConference.html"><i class="fa fa-map-marker fa-1x"></i>Group Study Conference Rooms</a></li>
+                <li><a href="classroom.html"><i class="fa fa-map-marker fa-1x"></i>Classrooms</a></li>
+        <li><a href="staffConference.html"><i class="fa fa-map-marker fa-1x"></i>Staff Conference Room</a></li>
+        <li><a href="computerLab.html"><i class="fa fa-map-marker fa-1x"></i>Computer Lab</a></li>
+      </ul>
+    </nav>
 
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
   <script src="js/scrollreveal.js" type="text/javascript" charset="utf-8"></script>
