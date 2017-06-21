@@ -17,9 +17,12 @@
       <div class="keys">       
        <div class="mapLegend">
           <div class="mapKey">
-            <div class="key1">
-              <div class="keyTitle">Concourse</div>
-              <div class="keySubtitle">4,462 sq ft. (Includes Monumental Stairs & Tech Wall)</div>
+            <div class="key key1">
+              <div class="keyNumber">1</div>
+              <div class="keyText">
+                <div class="keyTitle">Concourse</div>
+                <div class="keySubtitle">4,462 sq ft. (Includes Monumental Stairs & Tech Wall)</div>
+              </div>
             </div>
           </div>
         </div></div>

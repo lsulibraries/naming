@@ -164,9 +164,10 @@ background-size: cover;
     background: #303030;
 }
 
-.map{
+.map {
     width: 45%;
     position: relative;
+    margin-left: 10%;
 }
 
 .mapHeader{
@@ -436,12 +437,33 @@ span.listCategory {
     margin-top: 30px;
     margin-bottom: 30px;
 }
+
+.key {
+    display: flex;
+    align-items: center;
+}
+
 .keys {
     position: absolute;
-    left: 9.6%;
+    left: 14.6%;
     top: 19%;
     color: white;
     font-size: 11px;
+}
+
+.keyTitle {
+    font-weight: 600;
+}
+
+.keyNumber {
+    background: #303030;
+    padding: 6px 10px;
+    margin-right: 6px;
+    border-radius: 5px;
+}
+
+.key1 .keyNumber{
+        border-right: 12px solid #d6ebfe;
 }
 
 .mapNav_label {
