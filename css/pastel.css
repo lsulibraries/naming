@@ -196,7 +196,7 @@ display: flex;
     padding: 0px;
     color: #474747;
     width: auto;
-    height: 172px;
+    height: 132px;
     flex-direction: column;
     align-items: center;
     padding-left: 86px;
@@ -1694,13 +1694,13 @@ color: #a28ebd!important;
 .libHeader_logo img{
 width: 300px;
 position: relative;
-top: 93px;
+top: 53px;
 left: 0px;
 }
 
 .libHeader_menu{
     position: relative;
-    top: 97px;
+    top: 57px;
     left: 0px;
 }
 
