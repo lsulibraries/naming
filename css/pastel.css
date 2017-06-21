@@ -164,8 +164,13 @@ img.newmap {
     z-index: 3;
 }
 
-.zoomImg{
+.zoomImg {
 padding-left:30%;
+}
+
+.noDisplay{
+display:none;
+z-index: 3;
 }
 
 .mapSection{
@@ -197,6 +202,7 @@ padding-left:30%;
     left: -40%;
     color: white;    
         top: -20px;
+        z-index: 4;
 }
 
 h1 {
@@ -226,6 +232,7 @@ h2 {
     width: 26%;
     max-width: 120px;
     color: white;
+    z-index: 4;
 }
 
 .libPage{
@@ -490,7 +497,7 @@ span.listCategory {
     top: 99%;
     color: white;
     font-size: 11px;
-    width: 200%;
+    width: 140%;
 }
 
 .keyTitle {

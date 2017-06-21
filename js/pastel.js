@@ -11,22 +11,25 @@
 
 
 $('span.mapWrap').mousedown(
-  function(){
-            $("img.zoomImg").appendTo(".libContainer");
-
+  function() {
+    switch (event.which) {
+      case 1:
+        $("img.zoomImg").addClass("left").appendTo(".libContainer");
         $('div.map').children().not($('.mapWrap')).addClass("lessOpacity");
         $('img.newmap').addClass("invisible");
         $('div.mapSection, .header').addClass("darken");
         $('div.mapSection img.zoomImg').addClass("undarken");
-
       }
+    }
   );
 
 $('html').mouseup(
   function(){
         $('div.map').children().removeClass("lessOpacity");
         $('img.newmap').removeClass("invisible");
-        $('div.libContainer').contents().removeClass("darken");
+        $('div.libContainer').contents().removeClass("darken");       
+        $("img.zoomImg").appendTo(".mapWrap");
+        $('img.zoomImg').addClass("noDisplay");
 
       }
   );
