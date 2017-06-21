@@ -18,15 +18,10 @@ $(".slide").click(function() {
 });
 window.sr = ScrollReveal();
 sr.reveal('.heroTitle', { duration: 1000, delay: 300, origin: 'bottom', distance: '25px', scale: 1, opacity: 0, });
+
 $(document).ready(function() {
-
-
-
-
-    $(".libContainer").fadeIn(1500);
-
-$("#about").mmenu({
-
+  $(".libContainer").fadeIn(1500);
+  $("#about").mmenu({
    "extensions": [
       'pagedim-black',
       'border-full',

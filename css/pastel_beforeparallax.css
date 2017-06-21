@@ -131,78 +131,9 @@ color: #474747;
 }
 
 .libContainer{
-
-}
-
-div#scene {
-    width: 100%;
-    overflow: hidden;
-}
-
-img.libLogo {
-    width: 120px;
-    height: auto;
-    padding: 20px 20px 17px 20px;
-}
-
-img.newmap {
-    position: relative;
-    top: -10px;
-        width:100%;
-}
-
-.mapSection{
-        display: flex;
-    flex-direction: row;
-    width:100%;
-background-image:url(../images/photos/middletonDark.jpg);
-background-size: cover;
-    justify-content: center;
-}
-
-.header{
-    background: #303030;
-}
-
-.map{
-    width: 45%;
-    position: relative;
-}
-
-.mapHeader{
-    position: absolute;
-    left: -40%;
-    color: white;    
-        top: -20px;
-}
-
-h1 {
-
-    text-transform: uppercase;
-    font-size: 3.6vw;
-    width: 280px;
-    line-height: 3.1vw;
-}
-
-h2 {
-    color: white;
-    text-transform: uppercase;
-    font-weight: 500;
-    position: absolute;
-    font-size: 1.4vw;
-    top: 67%;
-    left: 1%;
-    width: 150%;    
-}
-
-.mapText {
-    position: absolute;
-    top: 20%;
-    left: 103%;
-    font-size: 10px;
-    width: 26%;
-    max-width: 120px;
-    color: white;
+display: flex;
+flex-direction: row;
+height: 100%;
 }
 
 .libPage{
@@ -436,12 +367,23 @@ span.listCategory {
     margin-top: 30px;
     margin-bottom: 30px;
 }
-.keys {
+
+.mapLegend {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     position: absolute;
-    left: 9.6%;
-    top: 19%;
-    color: white;
-    font-size: 11px;
+    top: -50px;
+    left: -20px;
+    box-sizing: border-box;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-top: 10px;
+    line-height: 12px;
+    font-weight: 900;
+
+    display:none;
 }
 
 .mapNav_label {

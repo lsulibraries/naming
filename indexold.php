@@ -11,28 +11,285 @@
 </head>
 <body>
   <div class="libContainer">
-    <div class="header"><a href="#menu2"><img src="images/librariesWhite.png" class="libLogo"></a></div>
+  <div class="menuIcons">
+    <a href="#menu2"><div class="singleIcon">back home</div></a>
+    <a href="#roomNavLeft"><div class="singleIcon secondIcon">back home</div></a>
 
-    <div class="mapSection">
-      <div class="keys">       
-       <div class="mapLegend">
-          <div class="mapKey">
-            <div class="key1">
-              <div class="keyTitle">Concourse</div>
-              <div class="keySubtitle">4,462 sq ft. (Includes Monumental Stairs & Tech Wall)</div>
+  </div>
+    <div class="libPage">
+      <div class="libHeader">
+        <a href="#roomNav">
+          <div class="roomIcon"><i class="fa fa-map fa-1x"></i></div>
+        </a>
+        <div class="hamburgerContainer">
+          <button id="my-icon" class="hamburger hamburger--emphatic" type="button">
+            <div class="menuLabel">Menu</div>
+             <span class="hamburger-box menuIcon">
+                <span class="hamburger-inner"></span>
+             </span>
+          </button>
+        </div>
+        <div class="libHeader_logo"><img src="images/libraries_logo.png" alt="LSU Libraries"> 
+        </div>
+        <div class="libHeader_menu">
+          <div class="libTitle">Naming Opportunities</div>
+          <div class="dropDown"><a href="middleton_floor1.html" class="libHeader_current">Middleton</a>
+            <div class="dropdown-content">
+              <a href="quietStudy.html">Reading Room</a>
+              <a href="groupDoorless.html">Doorless Group Study Rooms</a>
+              <a href="collaboration_first.html">Collaboration Area First Floor</a>
+              <a href="collaboration_second.html">Collaboration Area Second Floor</a>
+              <a href="groupConference.html">Group Study Conference Rooms</a>
+              <a href="artGallery.html">Art Gallery</a>
+              <a href="classroom.html">Classrooms</a>
+              <a href="staffConference.html">Staff Conference Room</a>
+              <a href="computerLab.html">Computer Lab</a>
             </div>
           </div>
-        </div></div>
-      <div class="map">
-        <div class="mapHeader">
-          <h1>Middleton Library</h1>
-          <h2>25 Naming Opportunities</h2>
+
+          <a href="contact.html">Contact</a>
+          <a href="https://securelb.imodules.com/s/1585/social.aspx?sid=1585&gid=1&pgid=708&cid=1508" target="_blank" class="donateLink">
+            <div class="donateButton">
+           <i class="fa fa-gift" aria-hidden="true"></i>
+           <span>Give Now</span>
+          </div></a>
+        </a>
         </div>
-        <img src="images/newmap.png" class="newmap">
-        <div class="mapText">The Middleton Library renovations campaign is one of LSU's most exciting priorities of the 2017-2018 academic year. A revitalized Middleton Library will immediately elevate LSU's academic experience and intellectual life, and strengthen the university's ability to attract and retain the brightest and most talented students and faculty. Below is a list of nameable spaces scheduled for renovation. It is the generosity of supporters like you that will enable LSU to transform Middleton Library into a 21st century research library.</div>
       </div>
-    </div>
-    <div class="textBody">testhere</div>
+      <div class="roomHero">
+        <div class="heroTitle">
+          <span class="">Middleton</span><span class=""> Library</span>
+          <span class="heroSubtitle">21 Naming Opportunities</span>
+        </div>
+        <img src="images/photos/middleton.jpg" class="roomImg">
+        <div class="overlay"></div><div class="heroDetails">
+          <div class="heroFlavor">
+            Main Library
+          </div>
+          <div class="heroList">
+            <a href="quietStudy.html">
+              <div class="heroList_item quietStudy_item"><span class="itemHighlight ">1x Reading Room</span>
+                <div class="imageMap smallMap">
+                  <img src="images/middleton_1_white.png" class="firstMap"> 
+                  <div class="hotspots">
+                    <div class="room" id="futureReading">
+                      <div class="roomTitle">Reading<br>Room</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="groupDoorless.html">
+              <div class="heroList_item collaboration_item"><span class="itemHighlight">5x Doorless Group Study Rooms</span> </a>
+            <div class="imageMap smallMap">
+              <img src="images/middleton_1_white.png" class="zeroOpacity"> 
+              <div class="hotspots">
+                <div class="doorlessGroup">
+                  <a href="groupDoorless.html">
+                    <div class="room doorLess" id="gsDoorless1">
+                    </div>
+                  </a>
+
+                  <a href="groupDoorless.html">
+                    <div class="room doorLess" id="gsDoorless2">
+                    </div>
+                  </a>
+
+                  <a href="groupDoorless.html">
+                    <div class="room doorLess" id="gsDoorless3">
+                    </div>
+                  </a>
+
+                  <a href="groupDoorless.html">
+                    <div class="room doorLess" id="gsDoorless4">
+                    </div>
+                  </a>
+
+                  <a href="groupDoorless.html">
+                    <div class="room doorLess" id="gsDoorless5">
+                    </div>
+                  </a>
+
+
+                </div>
+
+              </div>
+            </div>
+
+
+            </div>
+            <a href="collaboration_first.html">
+              <div class="heroList_item collaboration_item"><span class="itemHighlight">2x Collaboration Areas</span></a>
+            <div class="imageMap smallMap">
+              <img src="images/middleton_1_white.png" class="zeroOpacity"> 
+              <div class="hotspots">
+                <div class="collabMask_white" id="collaboration">
+                  <div class="roomTitle">Collaboration<br>Area</div>
+                </div>
+              </div>
+            </div>
+            </div>
+            <a href="groupConference.html" class="">
+              <div class="heroList_item groupStudy_item"><span class="itemHighlight">6x Group Study Conference Rooms</span></a>
+            <div class="imageMap smallMap">
+              <img src="images/middleton_1_white.png" class="zeroOpacity"> 
+              <div class="hotspots">
+
+
+                <div class="room " id="gs2">
+                  <div class="roomTitle rotate">GS</div>
+                </div>
+
+
+                <div class="room " id="gs3">
+                  <div class="roomTitle">GS</div>
+                </div>
+
+
+                <div class="room " id="gs4">
+                  <div class="roomTitle">GS</div>
+                </div>
+
+
+                <div class="room " id="gs5">
+                  <div class="roomTitle">GS</div>
+                </div>
+
+
+                <div class="room " id="gs6">
+                  <div class="roomTitle">GS</div>
+                </div>
+
+
+                <div class="room" id="gs7">
+                  <div class="roomTitle">GS</div>
+                </div>
+
+              </div>
+            </div>
+            </div>
+            <a href="artGallery.html"><div class="heroList_item artGallery_item"><span class="itemHighlight">1x Art Gallery</span></a>
+
+
+              <div class="imageMap smallMap">
+                <img src="images/middleton_1_white.png" class="zeroOpacity"> 
+                <div class="hotspots">
+                  <div class="room" id="artGallery">
+                    <div class="roomTitle">Collaboration<br>Area</div>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+            <a href="classroom.html" class="floorChange">
+              <div class="heroList_item classroom_item"><span class="itemHighlight">4x Classrooms</span></a>
+            <div class="imageMap smallMap">
+              <img src="images/middleton_2_white.png" class="floor2"> 
+              <div class="hotspots">
+                <div class="room" id="classroom4">
+                  <div class="roomTitle rotate">Classroom</div>
+                </div>
+
+                <div class="room" id="classroom3">
+                  <div class="roomTitle rotate">Classroom</div>
+                </div>
+
+                <div class="room" id="classroom2">
+                  <div class="roomTitle">Classroom</div>
+                </div>
+
+                <div class="room" id="classroom1">
+                  <div class="roomTitle rotate">Classroom</div>
+                </div>
+              </div>
+            </div>
+            </div>
+            <a href="staffConference.html" class="floorChange">
+              <div class="heroList_item staffConference_item"><span class="itemHighlight">1x Staff Conference Room</span></a>
+            <div class="imageMap smallMap">
+              <img src="images/middleton_2_white.png" class="floor2"> 
+              <div class="hotspots">
+                <div class="room" id="staffConference">
+                  <div class="roomTitle">Staff<br>Conference<br>Room</div>
+                </div>
+              </div>
+            </div>
+            </div>
+            <a href="computerLab.html" class="floorChange">
+              <div class="heroList_item computerLab_item"><span class="itemHighlight">1x Computer Lab</span></a>
+            <div class="imageMap smallMap">
+              <img src="images/middleton_2_white.png" class="floor2"> 
+              <div class="hotspots">
+                <div class="room" id="computerLab">
+                  <div class="roomTitle">Computer Lab</div>
+                </div>
+              </div>
+            </div>
+            </div>
+
+
+          </div>
+           
+
+
+        </div>
+
+        <div class="mapTitleMiddleton">Middleton Library
+          <div class="mapSubtitle">First Floor</div>
+        </div>
+      </div>
+      <div class="libContent">
+        
+
+            <div class="libCentral">maps here</div>
+
+
+        <div class="libGrid">
+          <a href="collaboration_first.html">
+            <div class="libGrid_item">
+              <div class="itemTitle">Collaboration<br>Area</div><img src="images/thumbnails/tn_collaboration.jpg"> 
+            </div>
+          </a>
+          <a href="collaboration_second.html">
+            <div class="libGrid_item">
+              <div class="itemTitle">Collaboration<br>Space Second Floor</div><img src="images/thumbnails/tn_collaborative_seating.jpg"> 
+            </div>
+          </a>
+          <a href="groupDoorless.html">
+            <div class="libGrid_item">
+              <div class="itemTitle">Doorless<br>Group Study<br>Room</div><img src="images/thumbnails/tn_groupDoorless.jpg"> 
+            </div>
+          </a>
+          <a href="groupConference.html">
+            <div class="libGrid_item">
+              <div class="itemTitle">Group Study<br>Conference<br>Room</div><img src="images/thumbnails/tn_groupStudy.jpg"> 
+            </div>
+          </a>
+          <a href="quietStudy.html">
+            <div class="libGrid_item">
+              <div class="itemTitle">Quiet<br>Reading<br>Room</div><img src="images/thumbnails/tn_quietStudy.jpg"> 
+            </div>
+          </a>
+          <a href="computerLab.html">
+            <div class="libGrid_item">
+              <div class="itemTitle">Computer<br>Lab</div><img src="images/thumbnails/tn_computerLab.jpg"> 
+            </div>
+          </a>
+          <a href="classroom.html">
+            <div class="libGrid_item">
+              <div class="itemTitle">Classrooms</div><img src="images/thumbnails/tn_classroom.jpg"> 
+            </div>
+          </a>
+          <a href="staffConference.html">
+            <div class="libGrid_item">
+              <div class="itemTitle">Staff <br>Conference<br> Room</div><img src="images/thumbnails/tn_staffConference.jpg"> 
+            </div>
+          </a>
+
+
+
+        </div>
         <div class="libFooter">
           <div class="leftFooter">
             <div class="leftFooter_item">
@@ -57,6 +314,12 @@
           </div>
         </div>
       </div>
+
+
+    </div>
+
+
+  </div>
 
   <nav id="about">
     <ul>
@@ -201,8 +464,8 @@
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
   <script src="js/scrollreveal.js" type="text/javascript" charset="utf-8"></script>
   <script src="js/jquery.mmenu.all.min.js" type="text/javascript" charset="utf-8"></script>
-  <!--<script src="js/jquery.zoom.js" type="text/javascript" charset="utf-8"></script>--> 
   <script src="js/pastel.js" type="text/javascript" charset="utf-8"></script>
+
 </body>
 
 </html>
