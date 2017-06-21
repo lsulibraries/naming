@@ -11,33 +11,7 @@
 </head>
 <body>
   <div class="libContainer">
-    <div class="libSidebar Fixed">
-      <a href="#menu2">
-        <div class="libSidebar_item"><img src="images/LSU Libraries_vertical_dark.png" class="libsideBar_logo" alt="LSU Libraries"> 
-        </div>
-      </a>
-      <a href="#roomNavLeft">
-        <div class="libSidebar_item">
-          <div class="iconLarge"><i class="fa fa-map fa-lg"></i></div>
-          <div class="iconTitle">Rooms</div>
-        </div>
-      </a>
 
-      <div class="libSidebar_bottomRegion">
-        <div class="libSidebar_item lastItem">
-          <a href="http://my.lsu.edu">
-            <div class="libSidebar_myLSU sidebarIcon_link"><img src="images/myLSU_logo.png" alt="myLSU"> <span class="screen-reader-text"> myLSU</span>
-            </div>
-          </a>
-        </div>
-        <div class="libSidebar_item lastItem">
-          <a href="http://lsu.edu">
-            <div class="libSidebar_LSU sidebarIcon_link"><img src="images/LSU_White-Reverse.png" alt="LSU"> <span class="screen-reader-text"> LSU </span>
-            </div>
-          </a>
-        </div>
-      </div>
-    </div>
     <div class="libPage">
       <div class="libHeader">
         <a href="#roomNav">

@@ -137,8 +137,6 @@ height: 100%;
 }
 
 .libPage{
-width: calc(100% - 86px);
-margin-left: 86px;
     display: flex;
     flex-direction: column;
 }
