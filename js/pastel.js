@@ -4,6 +4,12 @@
       $("#services ul").clone().appendTo("#menu2 ul:nth-child(1) > li:nth-child(0n+5)");
       $("#mapTitle").clone().appendTo(".libCentral");
 
+  $('img.newmap')
+    .wrap('<span class="mapWrap" style="display:inline-block"></span>')
+    .css('display', 'block')
+    .parent()
+    .zoom({ on:'grab' });
+
 
 $(".floorChange").hover(
   function() {

@@ -27,8 +27,8 @@
               <div class="key key1">
                 <div class="keyNumber">1</div>
                 <div class="keyText">
-                  <div class="keyTitle">Concourse</div>
-                  <div class="keySubtitle">4,462 sq ft. (Includes Monumental Stairs & Tech Wall)</div>
+                  <div class="keyTitle">Concourse w/ Monumental Stairs & Tech Wall</div>
+                  <div class="keySubtitle">4,462 ft&#xb2; </div>
                 </div>
               </div>
             </div>
@@ -40,7 +40,7 @@
                 <div class="keyNumber">2</div>
                 <div class="keyText">
                   <div class="keyTitle">Reading Room</div>
-                  <div class="keySubtitle">2,787 sq ft</div>
+                  <div class="keySubtitle">2,787 ft&#xb2;</div>
                 </div>
               </div>
             </div>
@@ -52,7 +52,7 @@
                 <div class="keyNumber">3</div>
                 <div class="keyText">
                   <div class="keyTitle">Collaboration Room</div>
-                  <div class="keySubtitle">16,122 sq ft</div>
+                  <div class="keySubtitle">16,122 ft&#xb2;</div>
                 </div>
               </div>
             </div>
@@ -64,7 +64,7 @@
                 <div class="keyNumber">4</div>
                 <div class="keyText">
                   <div class="keyTitle">South Lounge</div>
-                  <div class="keySubtitle">872 sq ft</div>
+                  <div class="keySubtitle">872 ft&#xb2;</div>
                 </div>
               </div>
             </div>
@@ -76,7 +76,7 @@
                 <div class="keyNumber">5</div>
                 <div class="keyText">
                   <div class="keyTitle">North Lounge</div>
-                  <div class="keySubtitle">872 sq ft</div>
+                  <div class="keySubtitle">872 ft&#xb2;</div>
                 </div>
               </div>
             </div>
@@ -88,7 +88,7 @@
                 <div class="keyNumber">6</div>
                 <div class="keyText">
                   <div class="keyTitle">Large Group Rooms (x9)</div>
-                  <div class="keySubtitle">1,721 sq ft</div>
+                  <div class="keySubtitle">1,721 ft&#xb2;</div>
                 </div>
               </div>
             </div>
@@ -100,7 +100,7 @@
                 <div class="keyNumber">7</div>
                 <div class="keyText">
                   <div class="keyTitle">Small Group Rooms (x4)</div>
-                  <div class="keySubtitle">407</div>
+                  <div class="keySubtitle">407 ft&#xb2;</div>
                 </div>
               </div>
             </div>
@@ -112,7 +112,7 @@
                 <div class="keyNumber">8</div>
                 <div class="keyText">
                   <div class="keyTitle">Individual Phone Rooms (x2)</div>
-                  <div class="keySubtitle">51 sq ft</div>
+                  <div class="keySubtitle">51 ft&#xb2;</div>
                 </div>
               </div>
             </div>
@@ -124,7 +124,7 @@
                 <div class="keyNumber">9</div>
                 <div class="keyText">
                   <div class="keyTitle">Help Desks (x3)</div>
-                  <div class="keySubtitle">584 sq ft</div>
+                  <div class="keySubtitle">584 ft&#xb2;</div>
                 </div>
               </div>
             </div>
@@ -136,7 +136,7 @@
                 <div class="keyNumber">10</div>
                 <div class="keyText">
                   <div class="keyTitle">Food Service</div>
-                  <div class="keySubtitle">6,297 sq ft</div>
+                  <div class="keySubtitle">6,297 ft&#xb2;</div>
                 </div>
               </div>
             </div>
@@ -148,7 +148,7 @@
                 <div class="keyNumber">11</div>
                 <div class="keyText">
                   <div class="keyTitle">Media Lobby</div>
-                  <div class="keySubtitle">620 sq ft</div>
+                  <div class="keySubtitle">620 ft&#xb2;</div>
                 </div>
               </div>
             </div>
@@ -331,7 +331,7 @@
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
   <script src="js/scrollreveal.js" type="text/javascript" charset="utf-8"></script>
   <script src="js/jquery.mmenu.all.min.js" type="text/javascript" charset="utf-8"></script>
-  <!--<script src="js/jquery.zoom.js" type="text/javascript" charset="utf-8"></script>--> 
+  <script src="js/jquery.zoom.js" type="text/javascript" charset="utf-8"></script>
   <script src="js/pastel.js" type="text/javascript" charset="utf-8"></script>
 </body>
 

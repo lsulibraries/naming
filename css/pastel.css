@@ -151,7 +151,6 @@ img.libLogo {
 
 img.newmap {
     position: relative;
-    top: -10px;
         width:100%;
 }
 
@@ -166,12 +165,15 @@ background-size: cover;
 
 .header{
     background: #303030;
+        border-bottom: 1px solid;
 }
 
 .map {
     width: 45%;
     position: relative;
     margin-left: 10%;
+        top: -60px;
+    margin-top: 50px;
 }
 
 .mapHeader{
@@ -194,10 +196,10 @@ h2 {
     text-transform: uppercase;
     font-weight: 500;
     position: absolute;
-    font-size: 1.4vw;
-    top: 67%;
+    font-size: 1.49vw;
+    top: 64%;
     left: 1%;
-    width: 150%;    
+    width: 200%;
 }
 
 .mapText {
@@ -442,8 +444,13 @@ span.listCategory {
     margin-bottom: 30px;
 }
 
+.mapWrap{
+    z-index: 5;
+}
+
 .mapKey {
-    margin-bottom: 4px;
+    margin-bottom: .5vw;
+    font-size: .84vw;
 }
 
 .key {
@@ -2538,7 +2545,12 @@ align-content: center;
     font-weight: 700;
 }
 
-
+@media (max-width: 1600px){
+    .mapKey {
+    margin-bottom: .5vw;
+    font-size: 10px;
+}
+}
 
 @media (max-width: 836px) {
 
