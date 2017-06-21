@@ -48,18 +48,115 @@
 
           <a href="#test">
             <div class="mapKey">
-              <div class="key key1">
+              <div class="key key3">
                 <div class="keyNumber">3</div>
                 <div class="keyText">
-                  <div class="keyTitle">Concourse</div>
-                  <div class="keySubtitle">4,462 sq ft. (Includes Monumental Stairs & Tech Wall)</div>
+                  <div class="keyTitle">Collaboration Room</div>
+                  <div class="keySubtitle">16,122 sq ft</div>
                 </div>
               </div>
             </div>
-          </a>                              
+          </a>     
+
+          <a href="#test">
+            <div class="mapKey">
+              <div class="key key4">
+                <div class="keyNumber">4</div>
+                <div class="keyText">
+                  <div class="keyTitle">South Lounge</div>
+                  <div class="keySubtitle">872 sq ft</div>
+                </div>
+              </div>
+            </div>
+          </a>   
+
+          <a href="#test">
+            <div class="mapKey">
+              <div class="key key5">
+                <div class="keyNumber">5</div>
+                <div class="keyText">
+                  <div class="keyTitle">North Lounge</div>
+                  <div class="keySubtitle">872 sq ft</div>
+                </div>
+              </div>
+            </div>
+          </a>   
+
+          <a href="#test">
+            <div class="mapKey">
+              <div class="key key6">
+                <div class="keyNumber">6</div>
+                <div class="keyText">
+                  <div class="keyTitle">Large Group Rooms (x9)</div>
+                  <div class="keySubtitle">1,721 sq ft</div>
+                </div>
+              </div>
+            </div>
+          </a>   
+
+          <a href="#test">
+            <div class="mapKey">
+              <div class="key key7">
+                <div class="keyNumber">7</div>
+                <div class="keyText">
+                  <div class="keyTitle">Small Group Rooms (x4)</div>
+                  <div class="keySubtitle">407</div>
+                </div>
+              </div>
+            </div>
+          </a>   
+
+          <a href="#test">
+            <div class="mapKey">
+              <div class="key key8">
+                <div class="keyNumber">8</div>
+                <div class="keyText">
+                  <div class="keyTitle">Individual Phone Rooms (x2)</div>
+                  <div class="keySubtitle">51 sq ft</div>
+                </div>
+              </div>
+            </div>
+          </a>   
+
+          <a href="#test">
+            <div class="mapKey">
+              <div class="key key9">
+                <div class="keyNumber">9</div>
+                <div class="keyText">
+                  <div class="keyTitle">Help Desks (x3)</div>
+                  <div class="keySubtitle">584 sq ft</div>
+                </div>
+              </div>
+            </div>
+          </a>   
+
+          <a href="#test">
+            <div class="mapKey">
+              <div class="key key10">
+                <div class="keyNumber">10</div>
+                <div class="keyText">
+                  <div class="keyTitle">Food Service</div>
+                  <div class="keySubtitle">6,297 sq ft</div>
+                </div>
+              </div>
+            </div>
+          </a>   
+
+          <a href="#test">
+            <div class="mapKey">
+              <div class="key key11">
+                <div class="keyNumber">11</div>
+                <div class="keyText">
+                  <div class="keyTitle">Media Lobby</div>
+                  <div class="keySubtitle">620 sq ft</div>
+                </div>
+              </div>
+            </div>
+          </a>   
+                                                                                                                                      
         </div>
         </div>
-          
+
         </div>
         <img src="images/newmap.png" class="newmap">
         <div class="mapText">The Middleton Library renovations campaign is one of LSU's most exciting priorities of the 2017-2018 academic year. A revitalized Middleton Library will immediately elevate LSU's academic experience and intellectual life, and strengthen the university's ability to attract and retain the brightest and most talented students and faculty. Below is a list of nameable spaces scheduled for renovation. It is the generosity of supporters like you that will enable LSU to transform Middleton Library into a 21st century research library.</div>

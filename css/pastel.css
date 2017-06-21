@@ -451,6 +451,10 @@ span.listCategory {
     align-items: center;
 }
 
+.keyText {
+    line-height: 1.1em;
+}
+
 .keys {
     position: absolute;
     top: 99%;
@@ -468,6 +472,8 @@ span.listCategory {
     padding: 6px 10px;
     margin-right: 6px;
     border-radius: 2px;
+        -webkit-transition-duration: 0.25s; /* Safari */
+    transition-duration: 0.25s;
 }
 
 .key1 .keyNumber{
@@ -475,20 +481,96 @@ span.listCategory {
 }
 
 .key2 .keyNumber{
-    border-right: 12px solid #e7ffcb;
+    border-right: 12px solid #cfe4b6;
+}
+.key3 .keyNumber{
+    border-right: 12px solid #f7f5cd;
+}
+
+.key4 .keyNumber{
+    border-right: 12px solid #b5d4ad;
+}
+
+.key5 .keyNumber{
+    border-right: 12px solid #ffd8b1;
+}
+
+.key6 .keyNumber{
+    border-right: 12px solid #f5df9e;
+}
+
+.key7 .keyNumber{
+    border-right: 12px solid #ccbcf9;
+}
+
+.key8 .keyNumber{
+    border-right: 12px solid #ab9784;
+}
+
+.key9 .keyNumber{
+    border-right: 12px solid #e3e3e3;
+}
+
+.key10 .keyNumber{
+    border-right: 12px solid #faa3a3;
+}
+
+.key11 .keyNumber{
+    border-right: 12px solid #7dfedf;
+}
+
+
+
+.key:hover > .keyNumber{
+    -webkit-transition-duration: 0s; /* Safari */
+    transition-duration: 0s;
 }
 
 .key1:hover > .keyNumber{
     border-right: 20px solid  #d6ebfe;
-    -webkit-transition-duration: 0.25s; /* Safari */
-    transition-duration: 0.25s;
 }
 
 .key2:hover > .keyNumber{
-    border-right: 20px solid #e7ffcb ;
-    -webkit-transition-duration: 0.25s; /* Safari */
-    transition-duration: 0.25s;
+    border-right: 20px solid #cfe4b6 ;
 }
+
+.key3:hover > .keyNumber{
+    border-right: 20px solid #f7f5cd ;
+}
+
+.key4:hover > .keyNumber{
+    border-right: 20px solid #b5d4ad ;
+}
+
+.key5:hover > .keyNumber{
+    border-right: 20px solid #ffd8b1 ;
+}
+
+.key6:hover > .keyNumber{
+    border-right: 20px solid #f5df9e ;
+}
+
+.key7:hover > .keyNumber{
+    border-right: 20px solid #ccbcf9 ;
+}
+
+.key8:hover > .keyNumber{
+    border-right: 20px solid #ab9784 ;
+}
+
+.key9:hover > .keyNumber{
+    border-right: 20px solid #e3e3e3 ;
+}
+
+.key10:hover > .keyNumber{
+    border-right: 20px solid #faa3a3 ;
+}
+
+.key11:hover > .keyNumber{
+    border-right: 20px solid #7dfedf ;
+}
+
+
 
 .mapNav_label {
     display: flex;
