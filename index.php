@@ -17,9 +17,12 @@
       
       <div class="map">
         <div class="mapHeader">
+          <div class="textHeader">
           <h1>Middleton Library</h1>
           <h2>25 Naming Opportunities</h2>
-<div class="keys">       
+          </div>
+          <div class="keys">       
+
        <div class="mapLegend">
 
           <a href="#test">

@@ -214,7 +214,7 @@ z-index:3;
     position: absolute;
     left: -40%;
     color: white;    
-        top: -20px;
+        top: 10px;
         z-index: 4;
 }
 
@@ -224,22 +224,21 @@ h1 {
     font-size: 3.6vw;
     width: 280px;
     line-height: 3.1vw;
+    margin: 0px;
 }
 
 h2 {
     color: white;
     text-transform: uppercase;
     font-weight: 500;
-    position: absolute;
     font-size: 1.49vw;
-    top: 64%;
-    left: 1%;
     width: 200%;
+    margin: 0px 0px 10px 0px;
 }
 
 .mapText {
     position: absolute;
-    top: 20%;
+    top: 21%;
     left: 103%;
     font-size: 10px;
     width: 26%;
@@ -2602,7 +2601,7 @@ align-content: center;
 }
 
 .keys{
-        width: 92%;
+        width: 96%;
 }
 
 h2{
