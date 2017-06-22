@@ -11,9 +11,19 @@
 </head>
 <body>
   <div class="libContainer">
+
+  <div class="roomModal" id="concourse">
+    <div class="modalContainer">
+      <div class="modalPicture"></div>
+      <div class="modalText">Concourse text</div>
+    </div>
+  </div>
      <a href="https://securelb.imodules.com/s/1585/social.aspx?sid=1585&gid=1&pgid=708&cid=1508" target="_blank"><div class="giftPrompt"><i class="fa fa-gift" aria-hidden="true"></i><div class="giftText">Give Now</div></div></a>
 
-    <div class="header"><a href="#menu2"><img src="images/librariesWhite.png" class="libLogo"></a></div>
+    <div class="header">
+    <a href="#menu2"><img src="images/librariesWhite.png" class="libLogo"></a>
+    <div class="breadcrumb"><a href="http://lib.lsu.edu" target="_blank">LSU Libraries Homepage</a><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="index.php"><span class="whitebg">Naming Opportunities</span></a></div>
+    </div>
 
     <div class="mapSection parallax-window" data-parallax="scroll" data-image-src="images/photos/middletonDark.jpg">
     <div class="mapWidth">

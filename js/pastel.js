@@ -31,6 +31,7 @@ $('span.mapWrap').mousedown(
     }
   );
 
+
 $('html').mouseup(
   function(){
         $('div.map').children().removeClass("lessOpacity");
@@ -53,10 +54,15 @@ $(".floorChange").hover(
 $(".slide").click(function() {
   $( ".floorSelect" ).toggleClass( "slideOut" );
 });
-window.sr = ScrollReveal();
-sr.reveal('.heroTitle', { duration: 1000, delay: 300, origin: 'bottom', distance: '25px', scale: 1, opacity: 0, });
+
 
 $(document).ready(function() {
+
+window.sr = ScrollReveal();
+sr.reveal('.newmap', { duration: 500, delay: 120, origin: 'top', distance: '25px', scale: 1, opacity: 0, useDelay: 'once'});
+sr.reveal('.mapOptions, .mapHeader, .mapText', { duration: 1000, delay: 300, origin: 'bottom', distance: '25px', scale: 1, opacity: 0, useDelay: 'once'});
+sr.reveal('.giftPrompt', { duration: 500, delay: 120, origin: 'top', distance: '25px', scale: 1, opacity: 0, useDelay: 'onload'});
+
   $(".libContainer").fadeIn(1500);
   $("#about").mmenu({
    "extensions": [
