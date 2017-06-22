@@ -130,7 +130,7 @@ html,
 body {
 margin: 0px;
 font-family: Roboto;
-    background: #ffffff;
+    background: #303030;
 color: #474747;
 overflow-x: hidden;
 }
@@ -169,6 +169,10 @@ img.newmap {
 
 }
 
+.mapWrap{
+    z-index: 10;
+}
+
 .mapWrap > img.newmap{
 opacity: 0;
 }
@@ -187,9 +191,8 @@ z-index:3;
 
 .mapSection{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     width:100%;
-    background-image:url(../images/photos/middletonDark.jpg);
     background-size: cover;
     justify-content: center;
         -webkit-transition-duration: 0.25s; /* Safari */
@@ -208,13 +211,16 @@ z-index:3;
     width: 45%;
     position: relative;
     margin-left: 10%;
+    left: 22%;
 }
-
+.mapWidth{
+    width:100%;
+}
 .mapHeader{
     position: absolute;
     left: -40%;
     color: white;    
-        top: 10px;
+        top: 12px;
         z-index: 4;
 }
 

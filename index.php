@@ -13,8 +13,8 @@
   <div class="libContainer">
     <div class="header"><a href="#menu2"><img src="images/librariesWhite.png" class="libLogo"></a></div>
 
-    <div class="mapSection">
-      
+    <div class="mapSection parallax-window" data-parallax="scroll" data-image-src="images/photos/middletonDark.jpg">
+    <div class="mapWidth">
       <div class="map">
         <div class="mapHeader">
           <div class="textHeader">
@@ -164,6 +164,11 @@
         <img src="images/newmap.png" class="newmap">
         <div class="mapText">The Middleton Library renovations campaign is one of LSU's most exciting priorities of the 2017-2018 academic year. A revitalized Middleton Library will immediately elevate LSU's academic experience and intellectual life, and strengthen the university's ability to attract and retain the brightest and most talented students and faculty. Below is a list of nameable spaces scheduled for renovation. It is the generosity of supporters like you that will enable LSU to transform Middleton Library into a 21st century research library.</div>
       </div>
+</div>
+      <div class="mapOptions">
+      test
+      </div>
+
     </div>
     <div class="textBody">testhere</div>
         <div class="libFooter">
@@ -335,6 +340,8 @@
   <script src="js/scrollreveal.js" type="text/javascript" charset="utf-8"></script>
   <script src="js/jquery.mmenu.all.min.js" type="text/javascript" charset="utf-8"></script>
   <script src="js/jquery.zoom.js" type="text/javascript" charset="utf-8"></script>
+  <script src="js/parallaxScroll.js" type="text/javascript" charset="utf-8"></script>
+
   <script src="js/pastel.js" type="text/javascript" charset="utf-8"></script>
 </body>
 

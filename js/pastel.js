@@ -7,6 +7,9 @@
 
       $("img.zoomImg").addClass("left").appendTo(".libContainer");
 
+$('.parallax-window').parallax({imageSrc: 'images/photos/middletonDark.jpg'});
+
+
 
   $('.map img.newmap')
     .wrap('<span class="mapWrap" style="display:inline-block"></span>')
@@ -15,13 +18,13 @@
 
 
 $('span.mapWrap').mousedown(
-  function() {
+  function(event) {
     switch (event.which) {
       case 1:
-        $('div.mapSection').children().not($('.map')).addClass("lessOpacity");
+        $('div.mapWidth').children().not($('.map')).addClass("lessOpacity");
         $('img.newmap').addClass("invisible");
         $('div.map').children().not('.mapWrap').addClass("darken");
-        $('div.mapSection img.zoomImg').addClass("undarken");
+        $('div.mapWidth img.zoomImg').addClass("undarken");
         $('img.zoomImg').removeClass("noDisplay");        
       }
     }
