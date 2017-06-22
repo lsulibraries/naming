@@ -9,7 +9,10 @@
 
 $('.parallax-window').parallax({imageSrc: 'images/photos/middletonDark.jpg'});
 
-
+$( ".mapKey1, .exit1" ).on( "click", function() {
+  $(".roomModal").toggleClass('flex');
+  $(".mapSection, .header, .newmap, .giftPrompt").toggleClass('darken');
+});
 
   $('.map img.newmap')
     .wrap('<span class="mapWrap" style="display:inline-block"></span>')
@@ -58,10 +61,7 @@ $(".slide").click(function() {
 
 $(document).ready(function() {
 
-window.sr = ScrollReveal();
-sr.reveal('.newmap', { duration: 500, delay: 120, origin: 'top', distance: '25px', scale: 1, opacity: 0, useDelay: 'once'});
-sr.reveal('.mapOptions, .mapHeader, .mapText', { duration: 1000, delay: 300, origin: 'bottom', distance: '25px', scale: 1, opacity: 0, useDelay: 'once'});
-sr.reveal('.giftPrompt', { duration: 500, delay: 120, origin: 'top', distance: '25px', scale: 1, opacity: 0, useDelay: 'onload'});
+
 
   $(".libContainer").fadeIn(1500);
   $("#about").mmenu({
@@ -164,6 +164,14 @@ $("#menu2").mmenu({
          columns: true
 
 });
+
+window.sr = ScrollReveal();
+sr.reveal('.newmap, .zoomPrompt', { duration: 500, delay: 120, origin: 'top', distance: '25px', scale: 1, opacity: 0, useDelay: 'once'});
+sr.reveal('.breadcrumb, .libLogo', { duration: 1000, delay: 0, origin: 'left', distance: '500px', scale: 1, opacity: 0, useDelay: 'once'});
+sr.reveal('.mapOptions, .mapHeader, .mapText', { duration: 1000, delay: 300, origin: 'bottom', distance: '25px', scale: 1, opacity: 0, useDelay: 'once'});
+sr.reveal('.modalContainer', { duration: 100, delay: 100, origin: 'bottom', distance: '25px', scale: 1, opacity: 1});
+sr.reveal('.giftPrompt', { duration: 500, delay: 600, origin: 'top', distance: '25px', scale: 1, opacity: 0, useDelay: 'onload'});
+
 });
 
 
@@ -199,3 +207,4 @@ API.bind( "closed", function() {
       $icon.removeClass( "is-active" );
    }, 100);
 });
+

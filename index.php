@@ -15,7 +15,16 @@
   <div class="roomModal" id="concourse">
     <div class="modalContainer">
       <div class="modalPicture"></div>
-      <div class="modalText">Concourse text</div>
+      <div class="modalBody">
+
+        <div class="modalTitle"><br>Main Entrance and Foyer</div>
+        <div class="modaltext">The main entrance and foyer will welcome library guests arriving from the LSU Quad. The entryway will be an open, energetic space that will showcase the south portion of the high-definition digital wall and grand staircase, as well as provide abundant lounge seating for gathering students and patrons.</div>
+
+        <div class="modalTitle">Technology Promenade</div>
+        <div class="modaltext">Adjacent to the nearby cafe, the technology promenade will be the premier architectural feature of renovated Middleton Library. Thye hallmark of this innovative area will be its high-definition digital wall that will transform the library into an exciting space of multimedia storytelling and 21st century learning.</div>
+
+        <div class="exit exit1">CLOSE</div>
+      </div>
     </div>
   </div>
      <a href="https://securelb.imodules.com/s/1585/social.aspx?sid=1585&gid=1&pgid=708&cid=1508" target="_blank"><div class="giftPrompt"><i class="fa fa-gift" aria-hidden="true"></i><div class="giftText">Give Now</div></div></a>
@@ -38,11 +47,11 @@
        <div class="mapLegend">
 
           <a href="#test">
-            <div class="mapKey">
+            <div class="mapKey mapKey1">
               <div class="key key1">
                 <div class="keyNumber">1</div>
                 <div class="keyText">
-                  <div class="keyTitle">Concourse w/ Monumental Stairs & Tech Wall</div>
+                  <div class="keyTitle">Main Entrance and Technology Promenade</div>
                   <div class="keySubtitle">4,462 ft&#xb2; </div>
                 </div>
               </div>
@@ -196,13 +205,12 @@
 
     </div>
     <div class="textBody">
-      <h3> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+      <h3> Middleton Library Renovations</h3>
     <div class="textContent"><br>
-      Praesent non augue sed erat convallis fermentum sit amet commodo nibh. Curabitur sit amet consectetur quam, vitae interdum dolor. Pellentesque condimentum turpis et felis eleifend, non fermentum diam pretium. Curabitur porttitor, lectus eget ultrices blandit, purus nulla molestie neque, vel iaculis nibh turpis suscipit massa. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam vitae diam id tellus condimentum congue. Donec porttitor dictum nisi sed eleifend. Maecenas iaculis sapien velit, vel mollis nibh gravida non. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas nulla purus, dictum vel enim a, rutrum accumsan diam. Nam metus est, scelerisque et turpis et, fermentum feugiat augue. Duis facilisis condimentum libero. Nullam tincidunt varius leo eget tempor. Ut ut ipsum urna.<br><br>
+The Middleton Library renovations campaign is one of LSU's most exciting priorities of the 2017-2018 academic year. A revitalized Middleton Library will immediately elevate LSU's academic experience and intellectual life, and strengthen the university's ability to attract and retain the brightest and most talented students and faculty. Below is a list of nameable spaces scheduled for renovation. It is the generosity of supporters like you that will enable LSU to transform Middleton Library into a 21st century research library.<br><br>
 
-Morbi viverra vitae enim at ultricies. Nulla ac facilisis leo. Nam iaculis lorem non erat vehicula ultricies. Nunc dictum elementum eros, vel lacinia erat porta nec. Fusce eget vehicula quam. Ut maximus faucibus sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras aliquet eros eu elit tempor cursus sed id magna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam nisi lorem, tempor quis semper vitae, posuere quis ligula.<br><br>
+A revitalized Middleton Library will enable LSU to advance its core mission of promoting outstanding teaching, learning and research. To find out more about how you can help support this important initiative, visit lib.lsu.edu/naming or contact LSU Libraries Development Office.
 
-Vivamus nec purus vitae sapien lobortis efficitur ut eget justo. Donec sit amet pretium enim. Quisque sollicitudin viverra diam, sed vehicula risus volutpat sed. Aliquam pharetra condimentum elit ac rutrum. Nam suscipit orci quis ante porta rutrum. Etiam vel purus a magna iaculis gravida vel non massa. Phasellus nec orci at orci aliquet ultricies. Mauris risus odio, consectetur a aliquam non, pulvinar eu dolor.
     </div>
 
             <div class="libFooter">
