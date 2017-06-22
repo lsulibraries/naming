@@ -17,7 +17,7 @@
       <div class="modalPicture"></div>
       <div class="modalBody">
 
-        <div class="modalTitle"><br>Main Entrance and Foyer</div>
+        <div class="modalTitle">Main Entrance and Foyer</div>
         <div class="modaltext">The main entrance and foyer will welcome library guests arriving from the LSU Quad. The entryway will be an open, energetic space that will showcase the south portion of the high-definition digital wall and grand staircase, as well as provide abundant lounge seating for gathering students and patrons.</div>
 
         <div class="modalTitle">Technology Promenade</div>
@@ -27,6 +27,59 @@
       </div>
     </div>
   </div>
+
+  <div class="roomModal" id="reading">
+    <div class="modalContainer">
+      <div class="modalPicture"></div>
+      <div class="modalBody">
+
+        <div class="modalTitle">Reading Room</div>
+        <div class="modaltext">A quiet space for focused study, the iconic reading room will include traditional seminar tables, arm chairs and appropriate lighting for long periods of concentration.</div>
+
+        <div class="exit exit1">CLOSE</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="roomModal" id="collaboration">
+    <div class="modalContainer">
+      <div class="modalPicture"></div>
+      <div class="modalBody">
+
+        <div class="modalTitle">Collaboration Space</div>
+        <div class="modaltext">The collaboration space will be a large, communal area to gather for group study and project-based learning. Offering an array of versatile furnishings and ample natural light, the collaboration space will serve as the central hub of renovated Middleton Library and allow students the opportunity to come together for multidisciplinary engagement.</div>
+
+        <div class="exit exit1">CLOSE</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="roomModal" id="southLounge">
+    <div class="modalContainer">
+      <div class="modalPicture"></div>
+      <div class="modalBody">
+
+        <div class="modalTitle">South Lounge</div>
+        <div class="modaltext">The multipurpose north and south commons will allow revitalized Middleton Library to foster idea exchange, intellectual discussion and community programming. The commons will provide students with a relaxing, social space to enjoy a break from their studies and unwind among peers.</div>
+
+        <div class="exit exit1">CLOSE</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="roomModal" id="northLounge">
+    <div class="modalContainer">
+      <div class="modalPicture"></div>
+      <div class="modalBody">
+
+        <div class="modalTitle">North Lounge</div>
+        <div class="modaltext">The multipurpose north and south commons will allow revitalized Middleton Library to foster idea exchange, intellectual discussion and community programming. The commons will provide students with a relaxing, social space to enjoy a break from their studies and unwind among peers.</div>
+
+        <div class="exit exit1">CLOSE</div>
+      </div>
+    </div>
+  </div>
+
      <a href="https://securelb.imodules.com/s/1585/social.aspx?sid=1585&gid=1&pgid=708&cid=1508" target="_blank"><div class="giftPrompt"><i class="fa fa-gift" aria-hidden="true"></i><div class="giftText">Give Now</div></div></a>
 
     <div class="header">
@@ -59,7 +112,7 @@
           </a>
 
           <a href="#test">
-            <div class="mapKey">
+            <div class="mapKey mapKey2">
               <div class="key key2">
                 <div class="keyNumber">2</div>
                 <div class="keyText">
@@ -71,11 +124,11 @@
           </a>
 
           <a href="#test">
-            <div class="mapKey">
+            <div class="mapKey mapKey3">
               <div class="key key3">
                 <div class="keyNumber">3</div>
                 <div class="keyText">
-                  <div class="keyTitle">Collaboration Room</div>
+                  <div class="keyTitle">Collaboration Space</div>
                   <div class="keySubtitle">16,122 ft&#xb2;</div>
                 </div>
               </div>
@@ -83,7 +136,7 @@
           </a>     
 
           <a href="#test">
-            <div class="mapKey">
+            <div class="mapKey mapKey4">
               <div class="key key4">
                 <div class="keyNumber">4</div>
                 <div class="keyText">
@@ -95,7 +148,7 @@
           </a>   
 
           <a href="#test">
-            <div class="mapKey">
+            <div class="mapKey mapKey5">
               <div class="key key5">
                 <div class="keyNumber">5</div>
                 <div class="keyText">

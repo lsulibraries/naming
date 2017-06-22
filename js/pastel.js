@@ -9,10 +9,35 @@
 
 $('.parallax-window').parallax({imageSrc: 'images/photos/middletonDark.jpg'});
 
-$( ".mapKey1, .exit1" ).on( "click", function() {
-  $(".roomModal").toggleClass('flex');
+$( ".mapKey1" ).on( "click", function() {
+  $("#concourse").toggleClass('flex');
   $(".mapSection, .header, .newmap, .giftPrompt").toggleClass('darken');
 });
+
+$( ".mapKey2" ).on( "click", function() {
+  $("#reading").toggleClass('flex');
+  $(".mapSection, .header, .newmap, .giftPrompt").toggleClass('darken');
+});
+
+$( ".mapKey3" ).on( "click", function() {
+  $("#collaboration").toggleClass('flex');
+  $(".mapSection, .header, .newmap, .giftPrompt").toggleClass('darken');
+});
+
+$( ".mapKey4" ).on( "click", function() {
+  $("#southLounge").toggleClass('flex');
+  $(".mapSection, .header, .newmap, .giftPrompt").toggleClass('darken');
+});
+
+$( ".mapKey5" ).on( "click", function() {
+  $("#northLounge").toggleClass('flex');
+  $(".mapSection, .header, .newmap, .giftPrompt").toggleClass('darken');
+});
+
+$( ".exit" ).on( "click", function() {
+  $(".roomModal").removeClass('flex');
+  $(".mapSection, .header, .newmap, .giftPrompt").removeClass('darken');
+ });
 
   $('.map img.newmap')
     .wrap('<span class="mapWrap" style="display:inline-block"></span>')
