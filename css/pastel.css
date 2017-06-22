@@ -171,6 +171,7 @@ img.newmap {
 
 .mapOptions{
     display: flex;
+    position: relative;
 }
 
 .contactInfo {
@@ -2666,6 +2667,37 @@ i.fa.fa-gift {
     top: -5px;
     font-weight: 600;
     font-size: 12px;
+}
+
+.mapLegend2{
+    position: absolute;
+    bottom: 90px;
+    right: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 12px;
+    flex-wrap: wrap;
+    height: 180px;
+    width: 280px;
+}
+
+.iconKey {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.iconText {
+    margin-left: 10px;
+}
+
+@media (max-width: 1200px){
+
+
 }
 @media (max-width: 1600px){
 

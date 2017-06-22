@@ -171,8 +171,17 @@
       </div>
 </div>
       <div class="mapOptions">
-
         <div class="contactInfo">LSU Libraries Development Office<br>225-578-6552<br>givetolibraries@lsu.edu<br>lib.lsu.edu/naming</div>
+
+        <div class="mapLegend2">
+          <div class="iconKey"><img src="images/stairsKey.png"><div class="iconText">Stairs</div></div>
+          <div class="iconKey"><img src="images/elevatorKey.png"><div class="iconText">Elevator</div></div>          
+          <div class="iconKey"><img src="images/fireKey.png"><div class="iconText">Fire Escape</div></div>
+          <div class="iconKey"><img src="images/restroomKey.png"><div class="iconText">Restroom</div></div>
+          <div class="iconKey"><img src="images/tutorialKey.png"><div class="iconText">Tutoring Center</div></div>
+          <div class="iconKey"><img src="images/maintenanceKey.png"><div class="iconText">Maintenance</div></div>                                                  
+        </div>
+
       </div>
 
     </div>

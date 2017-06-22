@@ -22,7 +22,7 @@ $('span.mapWrap').mousedown(
     switch (event.which) {
       case 1:
         $('div.mapWidth').children().not($('.map')).addClass("lessOpacity");
-        $('img.newmap').addClass("invisible");
+        $('img.newmap, .giftPrompt').addClass("invisible");
         $('div.map').children().not('.mapWrap').addClass("darken");
         $('div.mapOptions').addClass("darken");        
         $('div.mapWidth img.zoomImg').addClass("undarken");
@@ -34,7 +34,7 @@ $('span.mapWrap').mousedown(
 $('html').mouseup(
   function(){
         $('div.map').children().removeClass("lessOpacity");
-        $('img.newmap').removeClass("invisible");
+        $('img.newmap, .giftPrompt').removeClass("invisible");
         $('div.map').contents().removeClass("darken");    
         $('div.mapSection').contents().removeClass("darken");                 
         $('img.zoomImg').addClass("noDisplay");
