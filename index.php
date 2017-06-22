@@ -11,6 +11,8 @@
 </head>
 <body>
   <div class="libContainer">
+     <a href="https://securelb.imodules.com/s/1585/social.aspx?sid=1585&gid=1&pgid=708&cid=1508" target="_blank"><div class="giftPrompt"><i class="fa fa-gift" aria-hidden="true"></i><div class="giftText">Give Now</div></div></a>
+
     <div class="header"><a href="#menu2"><img src="images/librariesWhite.png" class="libLogo"></a></div>
 
     <div class="mapSection parallax-window" data-parallax="scroll" data-image-src="images/photos/middletonDark.jpg">
@@ -166,7 +168,6 @@
         <div class="mapText">The Middleton Library renovations campaign is one of LSU's most exciting priorities of the 2017-2018 academic year. A revitalized Middleton Library will immediately elevate LSU's academic experience and intellectual life, and strengthen the university's ability to attract and retain the brightest and most talented students and faculty. Below is a list of nameable spaces scheduled for renovation. It is the generosity of supporters like you that will enable LSU to transform Middleton Library into a 21st century research library.
         </div>
          <div class="zoomPrompt"><div id="mouse" class="mouse"></div>Click and hold to <span class="whitebg">&nbsp;zoom</span></div>
-
       </div>
 </div>
       <div class="mapOptions">

@@ -271,13 +271,15 @@ h2 {
     margin: 0px 0px 10px 0px;
 }
 
+
+
 .mapText {
     position: absolute;
     top: 21%;
     left: 103%;
-    font-size: 10px;
+    font-size: 11px;
     width: 26%;
-    max-width: 120px;
+    max-width: 122px;
     color: white;
     z-index: 4;
 }
@@ -2623,7 +2625,72 @@ align-content: center;
     font-weight: 700;
 }
 
+
+
+.giftPrompt {
+    width: 100px;
+    height: 100px;
+    background: #fae38d;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #303030;
+    position: absolute;
+    right: 18%;
+    top: 37px;
+    z-index: 10;
+}
+
+.giftPrompt::before {
+    content: '';
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 35px solid #fae38d;
+    position: absolute;
+    top: 50px;
+    transform: rotate(10deg);
+    left: -9px;
+}
+
+i.fa.fa-gift {
+    font-size: 3em;
+}
+
+.giftText {
+    text-transform: uppercase;
+    position: relative;
+    top: -5px;
+    font-weight: 600;
+    font-size: 12px;
+}
 @media (max-width: 1600px){
+
+.mapText {
+    position: absolute;
+    top: 21%;
+    left: 103%;
+    font-size: 10px;
+    width: 26%;
+    max-width: 120px;
+    color: white;
+    z-index: 4;
+}
+
+    .zoomPrompt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 10px;
+    position: absolute;
+    left: 71.7%;
+    top: 40%;
+    width: 150px;
+}
 
 .contactInfo {
 color: white;
@@ -2879,10 +2946,11 @@ height: 66px;
     justify-content: center;
     align-items: center;
     color: white;
-    font-size: 11px;
+    font-size: 10px;
     position: absolute;
-    left: 6.7%;
-    top: 52%;
+    left: 73.7%;
+    top: 40%;
+    width: 150px;
 }
 
 span.whitebg {
