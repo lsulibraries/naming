@@ -156,22 +156,36 @@
               </div>
             </div>
           </a>   
-                                                                                                                                      
+                            
+                                                                                                                 
         </div>
         </div>
 
         </div>
         <img src="images/newmap.png" class="newmap">
-        <div class="mapText">The Middleton Library renovations campaign is one of LSU's most exciting priorities of the 2017-2018 academic year. A revitalized Middleton Library will immediately elevate LSU's academic experience and intellectual life, and strengthen the university's ability to attract and retain the brightest and most talented students and faculty. Below is a list of nameable spaces scheduled for renovation. It is the generosity of supporters like you that will enable LSU to transform Middleton Library into a 21st century research library.</div>
+        <div class="mapText">The Middleton Library renovations campaign is one of LSU's most exciting priorities of the 2017-2018 academic year. A revitalized Middleton Library will immediately elevate LSU's academic experience and intellectual life, and strengthen the university's ability to attract and retain the brightest and most talented students and faculty. Below is a list of nameable spaces scheduled for renovation. It is the generosity of supporters like you that will enable LSU to transform Middleton Library into a 21st century research library.
+        </div>
+         <div class="zoomPrompt"><div id="mouse" class="mouse"></div>Click and hold to <span class="whitebg">&nbsp;zoom</span></div>
+
       </div>
 </div>
       <div class="mapOptions">
-      test
+
+        <div class="contactInfo">LSU Libraries Development Office<br>225-578-6552<br>givetolibraries@lsu.edu<br>lib.lsu.edu/naming</div>
       </div>
 
     </div>
-    <div class="textBody">testhere</div>
-        <div class="libFooter">
+    <div class="textBody">
+      <h3> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+    <div class="textContent"><br>
+      Praesent non augue sed erat convallis fermentum sit amet commodo nibh. Curabitur sit amet consectetur quam, vitae interdum dolor. Pellentesque condimentum turpis et felis eleifend, non fermentum diam pretium. Curabitur porttitor, lectus eget ultrices blandit, purus nulla molestie neque, vel iaculis nibh turpis suscipit massa. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam vitae diam id tellus condimentum congue. Donec porttitor dictum nisi sed eleifend. Maecenas iaculis sapien velit, vel mollis nibh gravida non. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas nulla purus, dictum vel enim a, rutrum accumsan diam. Nam metus est, scelerisque et turpis et, fermentum feugiat augue. Duis facilisis condimentum libero. Nullam tincidunt varius leo eget tempor. Ut ut ipsum urna.<br><br>
+
+Morbi viverra vitae enim at ultricies. Nulla ac facilisis leo. Nam iaculis lorem non erat vehicula ultricies. Nunc dictum elementum eros, vel lacinia erat porta nec. Fusce eget vehicula quam. Ut maximus faucibus sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras aliquet eros eu elit tempor cursus sed id magna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam nisi lorem, tempor quis semper vitae, posuere quis ligula.<br><br>
+
+Vivamus nec purus vitae sapien lobortis efficitur ut eget justo. Donec sit amet pretium enim. Quisque sollicitudin viverra diam, sed vehicula risus volutpat sed. Aliquam pharetra condimentum elit ac rutrum. Nam suscipit orci quis ante porta rutrum. Etiam vel purus a magna iaculis gravida vel non massa. Phasellus nec orci at orci aliquet ultricies. Mauris risus odio, consectetur a aliquam non, pulvinar eu dolor.
+    </div>
+
+            <div class="libFooter">
           <div class="leftFooter">
             <div class="leftFooter_item">
               LSU Libraries <br> Baton Rouge, LA 70803<br> Tel (225) 578-5652<br> Fax (225) 578-9432
@@ -194,6 +208,9 @@
             Copyright &copy; 2016. All Rights Reserved. Official Web Page of Louisiana State University.
           </div>
         </div>
+
+    </div>
+
       </div>
 
   <nav id="about">

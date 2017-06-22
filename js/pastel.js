@@ -24,6 +24,7 @@ $('span.mapWrap').mousedown(
         $('div.mapWidth').children().not($('.map')).addClass("lessOpacity");
         $('img.newmap').addClass("invisible");
         $('div.map').children().not('.mapWrap').addClass("darken");
+        $('div.mapOptions').addClass("darken");        
         $('div.mapWidth img.zoomImg').addClass("undarken");
         $('img.zoomImg').removeClass("noDisplay");        
       }
@@ -34,7 +35,8 @@ $('html').mouseup(
   function(){
         $('div.map').children().removeClass("lessOpacity");
         $('img.newmap').removeClass("invisible");
-        $('div.map').contents().removeClass("darken");       
+        $('div.map').contents().removeClass("darken");    
+        $('div.mapSection').contents().removeClass("darken");                 
         $('img.zoomImg').addClass("noDisplay");
 
       }

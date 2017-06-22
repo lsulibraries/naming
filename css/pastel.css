@@ -169,7 +169,38 @@ img.newmap {
 
 }
 
+.mapOptions{
+    display: flex;
+}
 
+.contactInfo {
+color: white;
+    font-size: 14px;
+    border: 1px solid #fae38d;
+    padding: 36px;
+    border-radius: 2px;
+    position: relative;
+    left: 14%;
+    bottom: 70px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    line-height: 1.3em;
+}
+
+.contactInfo::before{
+    content: 'Contact Us';
+    background: #fae38d;
+    position: absolute;
+    top: -34px;
+    width: calc( 100% + 2px);
+    left: -1px;
+    padding: 10px;
+    color: rgb(54, 48, 47);
+    box-sizing: border-box;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 2px 2px 0px 0px;
+}
 
 .mapWrap > img.newmap{
 opacity: 0;
@@ -2179,7 +2210,6 @@ li.mm-divider {
 .libFooter {
     height: auto;
     width: 100%;
-    max-width: 1440px;
     position: relative;
     display: flex;
     flex-direction: row;
@@ -2221,7 +2251,7 @@ margin-top: 200px;
 }
 
 .rightFooter i {
-    color: #a28ebd;
+color: #474747;
     margin-top: 5px;
 position: relative;
 }
@@ -2240,7 +2270,6 @@ bottom: 3px;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    max-width: 1440px;
     margin: 0 auto;
     padding-bottom: 55px;
 }
@@ -2595,6 +2624,21 @@ align-content: center;
 }
 
 @media (max-width: 1600px){
+
+.contactInfo {
+color: white;
+    font-size: .84vw;
+    border: 1px solid #fae38d;
+    padding: 2vw;
+    border-radius: 2px;
+    position: relative;
+    left: 14%;
+    bottom: 33px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    line-height: 1.4em;
+}
+
 .keyNumber{
     min-width: 11px;
 }
@@ -2772,4 +2816,103 @@ height: 66px;
     line-height: 2px;
     padding: 2px 2px 1px 2px;
 }
+}
+
+
+@-webkit-keyframes clickHold {
+  0%, 100% {
+    background-image:url('../images/mouseOpen.png');
+  }
+  20% {
+    background-image:url('../images/mouseOpen.png');
+  }
+  80% {
+    background-image:url('../images/mouseClosed.png');
+  }
+}
+@-moz-keyframes clickHold {
+  0%, 100% {
+    background-image:url('../images/mouseOpen.png');
+  }
+  20% {
+    background-image:url('../images/mouseOpen.png');
+  }
+  80% {
+    background-image:url('../images/mouseClosed.png');
+  }
+}
+@-o-keyframes clickHold {
+  0%, 100% {
+    background-image:url('../images/mouseOpen.png');
+  }
+  20% {
+    background-image:url('../images/mouseOpen.png');
+  }
+  80% {
+    background-image:url('../images/mouseClosed.png');
+  }
+}
+@keyframes clickHold {
+  0%, 100% {
+    background-image:url('../images/mouseOpen.png');
+  }
+  20% {
+    background-image:url('../images/mouseOpen.png');
+  }
+  80% {
+    background-image:url('../images/mouseClosed.png');
+  }
+}
+
+#mouse {
+   animation: clickHold 5s infinite;
+}
+
+.mouse {
+    height: 28px;
+    width: 19px;
+    margin-right: 5px;
+}
+
+.zoomPrompt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 11px;
+    position: absolute;
+    left: 6.7%;
+    top: 52%;
+}
+
+span.whitebg {
+    background: white;
+    color: black;
+    margin: 4px;
+    padding: 3px 3px 3px 2px;
+    border-radius: 2px;
+    font-weight: 700;
+}
+
+.textBody {
+    background: white;
+    padding: 5% 10% 5% 10%;
+    position: relative;
+}
+
+h3{
+    margin: 0px;
+}
+
+.textBody::before {
+content:'';
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 35px solid white;
+    position: absolute;
+    top: -20px;
+}
+
+.textContent{
+    font-size: 14px;
 }
