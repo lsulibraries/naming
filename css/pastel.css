@@ -136,7 +136,7 @@ overflow-x: hidden;
 }
 
 .libContainer{
-
+    min-height: 1600px;
 }
 
 div#scene {
@@ -154,23 +154,35 @@ img.newmap {
     position: relative;
     top: -10px;
         width:100%;
+            overflow: visible!important;
 }
 
 .invisible{
     opacity: 0;
 }
 
-.mapWrap{
-    z-index: 3;
+.libContainer > img{
+   position: absolute;
+    width: 45%;
+    margin-left: 32.5%;
+    margin-top: 58px;
+
 }
 
+.mapWrap > img.newmap{
+opacity: 0;
+}
+
+
 .zoomImg {
-padding-left:30%;
+padding-left:0%;
+overflow: hidden;
+z-index:5;
 }
 
 .noDisplay{
 display:none;
-z-index: 3;
+z-index:3;
 }
 
 .mapSection{
@@ -182,6 +194,7 @@ z-index: 3;
     justify-content: center;
         -webkit-transition-duration: 0.25s; /* Safari */
     transition-duration: 0.25s;
+    overflow: hidden;
 }
 
 .header{
@@ -480,7 +493,8 @@ span.listCategory {
 }
 
 .darken{
-  filter: brightness(.5) grayscale(20%);
+  filter: blur(2px);
+  opacity: 0.8;
 }
 
 .undarken{
@@ -511,6 +525,8 @@ span.listCategory {
     border-radius: 2px;
         -webkit-transition-duration: 0.25s; /* Safari */
     transition-duration: 0.25s;
+        min-width: 16px;
+    text-align: center;
 }
 
 .key1 .keyNumber{
@@ -2576,10 +2592,23 @@ align-content: center;
 }
 
 @media (max-width: 1600px){
+.keyNumber{
+    min-width: 11px;
+}
+
     .mapKey {
     margin-bottom: .5vw;
     font-size: 10px;
 }
+
+.keys{
+        width: 92%;
+}
+
+h2{
+    width:auto;
+}
+
 }
 
 @media (max-width: 836px) {

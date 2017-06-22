@@ -3,8 +3,12 @@
       $("#research ul").clone().appendTo("#menu2 ul:nth-child(1) > li:nth-child(0n+4)");
       $("#services ul").clone().appendTo("#menu2 ul:nth-child(1) > li:nth-child(0n+5)");
       $("#mapTitle").clone().appendTo(".libCentral");
+        $('img.newmap').clone().appendTo(".libContainer");
 
-  $('img.newmap')
+      $("img.zoomImg").addClass("left").appendTo(".libContainer");
+
+
+  $('.map img.newmap')
     .wrap('<span class="mapWrap" style="display:inline-block"></span>')
     .parent()
     .zoom({ on:'grab' });
@@ -14,11 +18,11 @@ $('span.mapWrap').mousedown(
   function() {
     switch (event.which) {
       case 1:
-        $("img.zoomImg").addClass("left").appendTo(".libContainer");
-        $('div.map').children().not($('.mapWrap')).addClass("lessOpacity");
+        $('div.mapSection').children().not($('.map')).addClass("lessOpacity");
         $('img.newmap').addClass("invisible");
-        $('div.mapSection, .header').addClass("darken");
+        $('div.map').children().not('.mapWrap').addClass("darken");
         $('div.mapSection img.zoomImg').addClass("undarken");
+        $('img.zoomImg').removeClass("noDisplay");        
       }
     }
   );
@@ -27,8 +31,7 @@ $('html').mouseup(
   function(){
         $('div.map').children().removeClass("lessOpacity");
         $('img.newmap').removeClass("invisible");
-        $('div.libContainer').contents().removeClass("darken");       
-        $("img.zoomImg").appendTo(".mapWrap");
+        $('div.map').contents().removeClass("darken");       
         $('img.zoomImg').addClass("noDisplay");
 
       }
