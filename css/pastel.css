@@ -169,9 +169,7 @@ img.newmap {
 
 }
 
-.mapWrap{
-    z-index: 10;
-}
+
 
 .mapWrap > img.newmap{
 opacity: 0;
