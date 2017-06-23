@@ -83,7 +83,7 @@
      <a href="https://securelb.imodules.com/s/1585/social.aspx?sid=1585&gid=1&pgid=708&cid=1508" target="_blank"><div class="giftPrompt"><i class="fa fa-gift" aria-hidden="true"></i><div class="giftText">Give Now</div></div></a>
 
     <div class="header">
-    <a href="#menu2"><img src="images/librariesWhite.png" class="libLogo"></a>
+    <a href="#menu2"><img src="images/librariesWhite.png" class="libLogo" alt="LSU Libraries"></a>
     <div class="breadcrumb"><a href="http://lib.lsu.edu" target="_blank">LSU Libraries Homepage</a><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="index.php"><span class="whitebg">Naming Opportunities</span></a></div>
     </div>
 
@@ -99,7 +99,7 @@
 
        <div class="mapLegend">
 
-          <a href="#test">
+          
             <div class="mapKey mapKey1">
               <div class="key key1">
                 <div class="keyNumber">1</div>
@@ -109,9 +109,8 @@
                 </div>
               </div>
             </div>
-          </a>
 
-          <a href="#test">
+          
             <div class="mapKey mapKey2">
               <div class="key key2">
                 <div class="keyNumber">2</div>
@@ -121,9 +120,8 @@
                 </div>
               </div>
             </div>
-          </a>
 
-          <a href="#test">
+          
             <div class="mapKey mapKey3">
               <div class="key key3">
                 <div class="keyNumber">3</div>
@@ -133,9 +131,9 @@
                 </div>
               </div>
             </div>
-          </a>     
+    
 
-          <a href="#test">
+          
             <div class="mapKey mapKey4">
               <div class="key key4">
                 <div class="keyNumber">4</div>
@@ -145,9 +143,7 @@
                 </div>
               </div>
             </div>
-          </a>   
-
-          <a href="#test">
+          
             <div class="mapKey mapKey5">
               <div class="key key5">
                 <div class="keyNumber">5</div>
@@ -157,9 +153,7 @@
                 </div>
               </div>
             </div>
-          </a>   
-
-          <a href="#test">
+          
             <div class="mapKey">
               <div class="key key6">
                 <div class="keyNumber">6</div>
@@ -169,9 +163,7 @@
                 </div>
               </div>
             </div>
-          </a>   
-
-          <a href="#test">
+          
             <div class="mapKey">
               <div class="key key7">
                 <div class="keyNumber">7</div>
@@ -181,9 +173,7 @@
                 </div>
               </div>
             </div>
-          </a>   
-
-          <a href="#test">
+          
             <div class="mapKey">
               <div class="key key8">
                 <div class="keyNumber">8</div>
@@ -193,9 +183,7 @@
                 </div>
               </div>
             </div>
-          </a>   
-
-          <a href="#test">
+          
             <div class="mapKey">
               <div class="key key9">
                 <div class="keyNumber">9</div>
@@ -205,9 +193,7 @@
                 </div>
               </div>
             </div>
-          </a>   
-
-          <a href="#test">
+          
             <div class="mapKey">
               <div class="key key10">
                 <div class="keyNumber">10</div>
@@ -217,9 +203,7 @@
                 </div>
               </div>
             </div>
-          </a>   
-
-          <a href="#test">
+          
             <div class="mapKey">
               <div class="key key11">
                 <div class="keyNumber">11</div>
@@ -228,15 +212,13 @@
                   <div class="keySubtitle">620 ft&#xb2;</div>
                 </div>
               </div>
-            </div>
-          </a>   
-                            
+            </div>                            
                                                                                                                  
         </div>
         </div>
 
         </div>
-        <img src="images/newmap.png" class="newmap">
+        <img src="images/newmap.png"  alt="Middleton Map" class="newmap">
         <div class="mapText">The Middleton Library renovations campaign is one of LSU's most exciting priorities of the 2017-2018 academic year. A revitalized Middleton Library will immediately elevate LSU's academic experience and intellectual life, and strengthen the university's ability to attract and retain the brightest and most talented students and faculty. Below is a list of nameable spaces scheduled for renovation. It is the generosity of supporters like you that will enable LSU to transform Middleton Library into a 21st century research library.
         </div>
          <div class="zoomPrompt"><div id="mouse" class="mouse"></div>Click and hold to <span class="whitebg">&nbsp;zoom</span></div>
@@ -246,12 +228,12 @@
         <div class="contactInfo">LSU Libraries Development Office<br>225-578-6552<br>givetolibraries@lsu.edu<br>lib.lsu.edu/naming</div>
 
         <div class="mapLegend2">
-          <div class="iconKey"><img src="images/stairsKey.png"><div class="iconText">Stairs</div></div>
-          <div class="iconKey"><img src="images/elevatorKey.png"><div class="iconText">Elevator</div></div>          
-          <div class="iconKey"><img src="images/fireKey.png"><div class="iconText">Fire Escape</div></div>
-          <div class="iconKey"><img src="images/restroomKey.png"><div class="iconText">Restroom</div></div>
-          <div class="iconKey"><img src="images/tutorialKey.png"><div class="iconText">Tutoring Center</div></div>
-          <div class="iconKey"><img src="images/maintenanceKey.png"><div class="iconText">Maintenance</div></div>                                                  
+          <div class="iconKey"><img src="images/stairsKey.png" alt="Stairs"><div class="iconText">Stairs</div></div>
+          <div class="iconKey"><img src="images/elevatorKey.png" alt="Elevator"><div class="iconText">Elevator</div></div>          
+          <div class="iconKey"><img src="images/fireKey.png" alt="Fire Escape"><div class="iconText">Fire Escape</div></div>
+          <div class="iconKey"><img src="images/restroomKey.png" alt="Restroom"><div class="iconText">Restroom</div></div>
+          <div class="iconKey"><img src="images/tutorialKey.png" alt="Tutoring Center"><div class="iconText">Tutoring Center</div></div>
+          <div class="iconKey"><img src="images/maintenanceKey.png" alt="Maintenance"><div class="iconText">Maintenance</div></div>                                                  
         </div>
 
       </div>

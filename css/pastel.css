@@ -522,6 +522,8 @@ span.listCategory {
 .mapKey {
     margin-bottom: .5vw;
     font-size: .84vw;
+        cursor: pointer;
+
 }
 .lessOpacity{
     opacity: 0.1;
