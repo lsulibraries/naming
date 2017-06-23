@@ -2169,11 +2169,15 @@ align-content: center;
     color: white;
     font-size: 12px;
     margin-left: 30px;
+    border: 1px solid white;
+    padding: 0px 0px 2px 6px;
+    border-radius: 4px;
+    overflow: hidden;
 }
 
 .breadcrumb i.fa.fa-arrow-right {
-    margin-left: 6px;
-    margin-right: 3px;    
+    margin-left: 4px;
+    margin-right: 6px;
 }
 
 .roomModal {
@@ -2549,6 +2553,15 @@ span.whitebg {
     color: black;
     margin: 4px;
     padding: 3px 3px 3px 2px;
+    border-radius: 2px;
+    font-weight: 700;
+}
+
+.breadcrumb span.whitebg {
+    background: white;
+    color: black;
+    margin: 4px 0px 4px 6px;
+    padding: 3px 3px 3px 0px;
     border-radius: 2px;
     font-weight: 700;
 }

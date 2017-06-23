@@ -10,7 +10,7 @@
   <title>Naming Opportunities | LSU Libraries</title>
 </head>
 <body>
-  <div class="libContainer">
+
 
   <div class="roomModal" id="concourse">
     <div class="modalContainer">
@@ -80,11 +80,13 @@
     </div>
   </div>
 
+  <div class="libContainer">
+
      <a href="https://securelb.imodules.com/s/1585/social.aspx?sid=1585&gid=1&pgid=708&cid=1508" target="_blank" class="giftLink"><div class="giftPrompt"><i class="fa fa-gift" aria-hidden="true"></i><div class="giftText">Give Now</div></div></a>
 
     <div class="header">
     <a href="#menu2"><img src="images/librariesWhite.png" class="libLogo" alt="LSU Libraries"></a>
-    <div class="breadcrumb"><a href="http://lib.lsu.edu" target="_blank">LSU Libraries Homepage</a><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="index.php"><span class="whitebg">Naming Opportunities</span></a></div>
+    <div class="breadcrumb"><a href="http://lib.lsu.edu" target="_blank" class="homeBreadcrumb">LSU Libraries Homepage</a><a href="index.php"><span class="whitebg"> <i class="fa fa-arrow-right" aria-hidden="true"></i>Naming Opportunities</span></a></div>
     </div>
 
     <div class="mapSection parallax-window" data-parallax="scroll" data-image-src="images/photos/middletonDark.jpg">
@@ -97,7 +99,7 @@
           </div>
           <div class="keys">       
 
-       <div class="mapLegend">
+       <div class="mapLegend" id="legend">
 
           
             <div class="mapKey mapKey1">

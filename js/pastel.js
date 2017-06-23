@@ -8,6 +8,18 @@
 
 $('.parallax-window').parallax({imageSrc: 'images/photos/middletonDark.jpg'});
 
+$('body').click(function(evt){    
+       if(evt.target.id == "legend")
+          return;
+   
+      if($(evt.target).closest('#legend').length)
+          return;       
+
+      //Do processing of click event here for every element except with id menu_content
+  $(".roomModal").removeClass('flex');
+  $(".mapSection, .header, .newmap, .giftPrompt").removeClass('darken');
+});
+
 $( ".mapKey1" ).on( "click", function() {
   $("#concourse").toggleClass('flex');
   $(".mapSection, .header, .newmap, .giftPrompt").toggleClass('darken');
@@ -69,18 +81,6 @@ $('html').mouseup(
 
       }
   );
-
-$(".floorChange").hover(
-  function() {
-    $(".firstMap").addClass("zeroOpacity");
-  }, function() {
-    $(".firstMap").removeClass("zeroOpacity");
-  }
-);
-
-$(".slide").click(function() {
-  $( ".floorSelect" ).toggleClass( "slideOut" );
-});
 
 
 $(document).ready(function() {
@@ -195,7 +195,6 @@ sr.reveal('.breadcrumb, .libLogo', { duration: 1000, delay: 0, origin: 'left', d
 sr.reveal('.mapOptions, .mapHeader, .mapText', { duration: 1000, delay: 300, origin: 'bottom', distance: '25px', scale: 1, opacity: 0, useDelay: 'once'});
 sr.reveal('.modalContainer', { duration: 100, delay: 100, origin: 'bottom', distance: '25px', scale: 1, opacity: 1});
 sr.reveal('.giftPrompt', { duration: 500, delay: 600, origin: 'top', distance: '25px', scale: 1, opacity: 0, useDelay: 'onload'});
-
 });
 
 
