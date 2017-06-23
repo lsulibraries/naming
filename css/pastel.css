@@ -2115,6 +2115,7 @@ align-content: center;
     z-index: 10;
 }
 
+
 .giftPrompt::before {
     content: '';
     border-left: 25px solid transparent;

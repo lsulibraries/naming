@@ -53,7 +53,7 @@ $('span.mapWrap').mousedown(
         $('div.map').children().not('.mapWrap').addClass("darken");
         $('div.mapOptions').addClass("darken");        
         $('div.mapWidth img.zoomImg').addClass("undarken");
-        $('img.zoomImg').removeClass("noDisplay");        
+        $('img.zoomImg').removeClass("invisible");        
       }
     }
   );
@@ -65,7 +65,7 @@ $('html').mouseup(
         $('img.newmap, .giftPrompt').removeClass("invisible");
         $('div.map').contents().removeClass("darken");    
         $('div.mapSection').contents().removeClass("darken");                 
-        $('img.zoomImg').addClass("noDisplay");
+        $('img.zoomImg').addClass("invisible");
 
       }
   );
