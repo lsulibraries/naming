@@ -8,17 +8,24 @@
 
 $('.parallax-window').parallax({imageSrc: 'images/photos/middletonDark.jpg'});
 
+
+
 $('body').click(function(evt){    
+       if(evt.target.id == ("concourse, reading"))
+          return;      
        if(evt.target.id == "legend")
           return;
-   
-      if($(evt.target).closest('#legend').length)
+       if($(evt.target).closest('#legend').length)
           return;       
-
+  
+         if($(evt.target).closest('#concourse, #reading').length)
+          return;  
       //Do processing of click event here for every element except with id menu_content
-  $(".roomModal").removeClass('flex');
-  $(".mapSection, .header, .newmap, .giftPrompt").removeClass('darken');
+        $(".roomModal").toggleClass('flex');
+        $(".mapSection, .header, .newmap, .giftPrompt").removeClass('darken');
 });
+
+
 
 $( ".mapKey1" ).on( "click", function() {
   $("#concourse").toggleClass('flex');

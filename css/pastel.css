@@ -2182,8 +2182,7 @@ align-content: center;
 
 .roomModal {
     position: absolute;
-    width: 100%;
-    height: 100%;
+    left: calc(50% - 250px);
     z-index: 12;
     align-items: center;
     display: none;

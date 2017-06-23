@@ -10,7 +10,7 @@
   <title>Naming Opportunities | LSU Libraries</title>
 </head>
 <body>
-
+  <div class="libContainer">
 
   <div class="roomModal" id="concourse">
     <div class="modalContainer">
@@ -79,8 +79,6 @@
       </div>
     </div>
   </div>
-
-  <div class="libContainer">
 
      <a href="https://securelb.imodules.com/s/1585/social.aspx?sid=1585&gid=1&pgid=708&cid=1508" target="_blank" class="giftLink"><div class="giftPrompt"><i class="fa fa-gift" aria-hidden="true"></i><div class="giftText">Give Now</div></div></a>
 
