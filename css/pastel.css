@@ -219,6 +219,10 @@ display:none;
 z-index:3;
 }
 
+.boldText{
+    font-weight: 700;
+}
+
 .mapSection{
     display: flex;
     flex-direction: column;
@@ -2122,7 +2126,7 @@ align-content: center;
     left: -9px;
 }
 
-i.fa.fa-gift {
+.giftPrompt i.fa.fa-gift {
     font-size: 3em;
 }
 

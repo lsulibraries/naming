@@ -3,8 +3,7 @@
       $("#research ul").clone().appendTo("#menu2 ul:nth-child(1) > li:nth-child(0n+4)");
       $("#services ul").clone().appendTo("#menu2 ul:nth-child(1) > li:nth-child(0n+5)");
       $("#mapTitle").clone().appendTo(".libCentral");
-        $('img.newmap').clone().appendTo(".libContainer");
-
+      $('img.newmap').clone().appendTo(".libContainer");
       $("img.zoomImg").addClass("left").appendTo(".libContainer");
 
 $('.parallax-window').parallax({imageSrc: 'images/photos/middletonDark.jpg'});

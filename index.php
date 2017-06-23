@@ -225,7 +225,9 @@
       </div>
 </div>
       <div class="mapOptions">
-        <div class="contactInfo">LSU Libraries Development Office<br>225-578-6552<br>givetolibraries@lsu.edu<br>lib.lsu.edu/naming</div>
+        <div class="contactInfo"><span class="boldText">LSU Libraries Development Office</span><br><i class="fa fa-phone-square" aria-hidden="true"></i>
+ 225-578-6552<br><i class="fa fa-envelope-square" aria-hidden="true"></i>
+givetolibraries@lsu.edu</div>
 
         <div class="mapLegend2">
           <div class="iconKey"><img src="images/stairsKey.png" alt="Stairs"><div class="iconText">Stairs</div></div>
