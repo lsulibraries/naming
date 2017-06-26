@@ -9,24 +9,6 @@
 $('.parallax-window').parallax({imageSrc: 'images/photos/middletonDark.jpg'});
 
 
-
-$('body').click(function(evt){    
-       if(evt.target.id == ("concourse, reading"))
-          return;      
-       if(evt.target.id == "legend")
-          return;
-       if($(evt.target).closest('#legend').length)
-          return;       
-  
-         if($(evt.target).closest('#concourse, #reading').length)
-          return;  
-      //Do processing of click event here for every element except with id menu_content
-        $(".roomModal").toggleClass('flex');
-        $(".mapSection, .header, .newmap, .giftPrompt").removeClass('darken');
-});
-
-
-
 $( ".mapKey1" ).on( "click", function() {
   $("#concourse").toggleClass('flex');
   $(".mapSection, .header, .newmap, .giftPrompt").toggleClass('darken');
@@ -49,6 +31,36 @@ $( ".mapKey4" ).on( "click", function() {
 
 $( ".mapKey5" ).on( "click", function() {
   $("#northLounge").toggleClass('flex');
+  $(".mapSection, .header, .newmap, .giftPrompt").toggleClass('darken');
+});
+
+$( ".mapKey6" ).on( "click", function() {
+  $("#largeGroup").toggleClass('flex');
+  $(".mapSection, .header, .newmap, .giftPrompt").toggleClass('darken');
+});
+
+$( ".mapKey7" ).on( "click", function() {
+  $("#smallGroup").toggleClass('flex');
+  $(".mapSection, .header, .newmap, .giftPrompt").toggleClass('darken');
+});
+
+$( ".mapKey8" ).on( "click", function() {
+  $("#phoneRoom").toggleClass('flex');
+  $(".mapSection, .header, .newmap, .giftPrompt").toggleClass('darken');
+});
+
+$( ".mapKey9" ).on( "click", function() {
+  $("#helpDesk").toggleClass('flex');
+  $(".mapSection, .header, .newmap, .giftPrompt").toggleClass('darken');
+});
+
+$( ".mapKey10" ).on( "click", function() {
+  $("#cafeLounge").toggleClass('flex');
+  $(".mapSection, .header, .newmap, .giftPrompt").toggleClass('darken');
+});
+
+$( ".mapKey11" ).on( "click", function() {
+  $("#mediaLobby").toggleClass('flex');
   $(".mapSection, .header, .newmap, .giftPrompt").toggleClass('darken');
 });
 

@@ -1523,14 +1523,6 @@ letter-spacing: 1px;
 
 }
 
-.mm-listview>li:not(.mm-divider):hover{
-position: relative;
-padding-bottom: 4px;
--webkit-transition-duration: 0s; /* Safari */
-transition-duration: 0s;
-
-font-size:11px;
-}
 
 .mm-theme-dark .mm-listview>li:not(.mm-divider):hover{
 color: white;
@@ -2182,7 +2174,7 @@ align-content: center;
 
 .roomModal {
     position: absolute;
-    left: calc(50% - 250px);
+    left: calc(50% - 350px);
     z-index: 12;
     align-items: center;
     display: none;
@@ -2195,7 +2187,7 @@ align-content: center;
     align-items: center;
     flex-direction: column;
     overflow: hidden;
-    width: 500px;
+    width: 700px;
     margin-top: 200px;
     background: white;
     border-radius: 5px;
@@ -2207,7 +2199,7 @@ align-content: center;
 }
 
 .modalPicture {
-    height: 260px;
+    height: 360px;
     width: 120%;
     background-size: cover;
     position: relative;
@@ -2226,11 +2218,35 @@ align-content: center;
 }
 
 #southLounge .modalPicture {
-    background-image: url(../images/photos/lounge_a.jpg);
+    background-image: url(../images/photos/southLobby.jpg);
 }
 
 #northLounge .modalPicture {
-    background-image: url(../images/photos/lounge_b.jpg);
+    background-image: url(../images/photos/northLobby.jpg);
+}
+
+#largeGroup .modalPicture {
+    background-image: url(../images/photos/groupConference.jpg);
+}
+
+#smallGroup .modalPicture {
+    background-image: url(../images/photos/smallGroup.jpg);
+}
+
+#phoneRoom .modalPicture {
+    background-image: url(../images/photos/phoneRoom.jpg);
+}
+
+#helpDesk .modalPicture {
+    background-image: url(../images/photos/helpDesk.jpg);
+}
+
+#cafeLounge .modalPicture {
+    background-image: url(../images/photos/cafe.jpg);
+}
+
+#mediaLobby .modalPicture {
+    background-image: url(../images/photos/mediaLobby.jpg);
 }
 
 .exit {

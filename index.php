@@ -80,6 +80,84 @@
     </div>
   </div>
 
+    <div class="roomModal" id="largeGroup">
+    <div class="modalContainer">
+      <div class="modalPicture"></div>
+      <div class="modalBody">
+
+        <div class="modalTitle">Large Group Rooms</div>
+        <div class="modaltext">Nine large, enclosed study rooms outfitted with digital monitors and white boards will provide students the opportunity to break out from the open, collaborative area for more concentrated group exchanges. The large study rooms will be ideal for students who are working on creative projects and presentations in groups of six to eight.</div>
+
+        <div class="exit exit1">CLOSE</div>
+      </div>
+    </div>
+  </div>
+
+    <div class="roomModal" id="smallGroup">
+    <div class="modalContainer">
+      <div class="modalPicture"></div>
+      <div class="modalBody">
+
+        <div class="modalTitle">Small Group Rooms</div>
+        <div class="modaltext">Small group study rooms with digital monitors, white boards and state-of-the-art equipment will be located near the central collaboration space, providing a seamless flow between the social library experience and focused group work. Each room will have a capacity to serve groups of two to four.</div>
+
+        <div class="exit exit1">CLOSE</div>
+      </div>
+    </div>
+  </div>  
+
+    <div class="roomModal" id="phoneRoom">
+    <div class="modalContainer">
+      <div class="modalPicture"></div>
+      <div class="modalBody">
+
+        <div class="modalTitle">Phone Rooms</div>
+        <div class="modaltext">Two soundproof phone rooms will be available for students on the first floor to ensure student privacy and that nearby spaces don't experience unnecessary disruption.</div>
+
+        <div class="exit exit1">CLOSE</div>
+      </div>
+    </div>
+  </div>  
+
+    <div class="roomModal" id="helpDesk">
+    <div class="modalContainer">
+      <div class="modalPicture"></div>
+      <div class="modalBody">
+
+        <div class="modalTitle">Information Desks</div>
+        <div class="modaltext">Strategically located near the main entrances, students and library patrons will have multiple opportunities to interact with library faculty and staff as they explore all the ways Middleton Library can support their research.</div>
+
+        <div class="exit exit1">CLOSE</div>
+      </div>
+    </div>
+  </div>   
+
+  <div class="roomModal" id="cafeLounge">
+    <div class="modalContainer">
+      <div class="modalPicture"></div>
+      <div class="modalBody">
+
+        <div class="modalTitle">Cafe and Lounge</div>
+        <div class="modaltext">A place to enjoy a sense of community, share ideas and re-energize, the cafe and lounge is sure to be a favorite area for students, faculty and staff alike. The space will include new, inviting furniture and a robust menu of delicious food and beverage choices that can be browsed on table-side tablets.</div>
+
+        <div class="exit exit1">CLOSE</div>
+      </div>
+    </div>
+  </div>  
+
+  <div class="roomModal" id="mediaLobby">
+    <div class="modalContainer">
+      <div class="modalPicture"></div>
+      <div class="modalBody">
+
+        <div class="modalTitle">Second Floor Media Lobby</div>
+        <div class="modaltext">The media lobby will function as a reception space for students and library patrons, where guests can browse displayed daily news and pertinent university communications. Plans for the lobby include a high-definition digital wall and comfortable, modern seating for visitors to the second floor.</div>
+
+        <div class="exit exit1">CLOSE</div>
+      </div>
+    </div>
+  </div>       
+
      <a href="https://securelb.imodules.com/s/1585/social.aspx?sid=1585&gid=1&pgid=708&cid=1508" target="_blank" class="giftLink"><div class="giftPrompt"><i class="fa fa-gift" aria-hidden="true"></i><div class="giftText">Give Now</div></div></a>
 
     <div class="header">
@@ -138,7 +216,7 @@
               <div class="key key4">
                 <div class="keyNumber">4</div>
                 <div class="keyText">
-                  <div class="keyTitle">South Lounge</div>
+                  <div class="keyTitle">South Commons</div>
                   <div class="keySubtitle">872 ft&#xb2;</div>
                 </div>
               </div>
@@ -148,13 +226,13 @@
               <div class="key key5">
                 <div class="keyNumber">5</div>
                 <div class="keyText">
-                  <div class="keyTitle">North Lounge</div>
+                  <div class="keyTitle">North Commons</div>
                   <div class="keySubtitle">872 ft&#xb2;</div>
                 </div>
               </div>
             </div>
           
-            <div class="mapKey">
+            <div class="mapKey mapKey6">
               <div class="key key6">
                 <div class="keyNumber">6</div>
                 <div class="keyText">
@@ -164,7 +242,7 @@
               </div>
             </div>
           
-            <div class="mapKey">
+            <div class="mapKey mapKey7">
               <div class="key key7">
                 <div class="keyNumber">7</div>
                 <div class="keyText">
@@ -174,7 +252,7 @@
               </div>
             </div>
           
-            <div class="mapKey">
+            <div class="mapKey mapKey8">
               <div class="key key8">
                 <div class="keyNumber">8</div>
                 <div class="keyText">
@@ -184,27 +262,27 @@
               </div>
             </div>
           
-            <div class="mapKey">
+            <div class="mapKey mapKey9">
               <div class="key key9">
                 <div class="keyNumber">9</div>
                 <div class="keyText">
-                  <div class="keyTitle">Help Desks (x3)</div>
+                  <div class="keyTitle">Information Desks (x3)</div>
                   <div class="keySubtitle">584 ft&#xb2;</div>
                 </div>
               </div>
             </div>
           
-            <div class="mapKey">
+            <div class="mapKey mapKey10">
               <div class="key key10">
                 <div class="keyNumber">10</div>
                 <div class="keyText">
-                  <div class="keyTitle">Food Service</div>
+                  <div class="keyTitle">Cafe and Lounge</div>
                   <div class="keySubtitle">6,297 ft&#xb2;</div>
                 </div>
               </div>
             </div>
           
-            <div class="mapKey">
+            <div class="mapKey mapKey11">
               <div class="key key11">
                 <div class="keyNumber">11</div>
                 <div class="keyText">
