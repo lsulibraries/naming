@@ -59,7 +59,7 @@
       <div class="modalPicture"></div>
       <div class="modalBody">
 
-        <div class="modalTitle">South Lounge</div>
+        <div class="modalTitle">South Commons</div>
         <div class="modaltext">The multipurpose north and south commons will allow revitalized Middleton Library to foster idea exchange, intellectual discussion and community programming. The commons will provide students with a relaxing, social space to enjoy a break from their studies and unwind among peers.</div>
 
         <div class="exit exit1">CLOSE</div>
@@ -72,7 +72,7 @@
       <div class="modalPicture"></div>
       <div class="modalBody">
 
-        <div class="modalTitle">North Lounge</div>
+        <div class="modalTitle">North Commons</div>
         <div class="modaltext">The multipurpose north and south commons will allow revitalized Middleton Library to foster idea exchange, intellectual discussion and community programming. The commons will provide students with a relaxing, social space to enjoy a break from their studies and unwind among peers.</div>
 
         <div class="exit exit1">CLOSE</div>
@@ -227,7 +227,7 @@
                 <div class="keyNumber">5</div>
                 <div class="keyText">
                   <div class="keyTitle">North Commons</div>
-                  <div class="keySubtitle">872 ft&#xb2;</div>
+                  <div class="keySubtitle">2,899 ft&#xb2;</div>
                 </div>
               </div>
             </div>
