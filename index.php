@@ -1,6 +1,5 @@
 <!DOCTYPE HTML>
-<html>
-<head>
+<html lang="en"><head>
   <link rel="stylesheet" type="text/css" href="css/hamburgers.css" /><link rel="icon" href="favicon_purple.ico">
   <link rel="stylesheet" type="text/css" href="css/pastel.css" />
   <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
@@ -12,600 +11,336 @@
 </head>
 <body>
   <div class="libContainer">
-    <div class="libSidebar Fixed">
-      <a href="http://lib.lsu.edu" target="_blank">
-        <div class="libSidebar_item"><img src="images/LSU Libraries_vertical_white_PNG.png" class="libsideBar_logo"></img>
-        </div>
-      </a>
-      <a href="#about">
-        <div class="libSidebar_item">
-          <div class="iconLarge"><i class="fa fa-list-alt fa-lg"></i></div>
-          <div class="iconTitle">About</div>
-        </div>
-      </a>
-      <a href="#libraries">
-        <div class="libSidebar_item">
-          <div class="iconLarge"><i class="fa fa-institution fa-lg"></i></div>
-          <div class="iconTitle">Libraries </div>
-        </div>
-      </a>
-      <a href="#research">
-        <div class="libSidebar_item">
-          <div class="iconLarge"><i class="fa fa-book fa-lg"></i></div>
-          <div class="iconTitle">Research </div>
-        </div>
-      </a>
-      <a href="#services">
-        <div class="libSidebar_item">
-          <div class="iconLarge"><i class="fa fa-handshake-o  fa-lg"></i></div>
-          <div class="iconTitle">Services</div>
-        </div>
-      </a>
-      <div class="libSidebar_bottomRegion">
-        <div class="libSidebar_item lastItem">
-          <a href="http://my.lsu.edu">
-            <div class="libSidebar_myLSU sidebarIcon_link"><img src="images/myLSU_logo.png"></img>
-            </div>
-          </a>
-        </div>
-        <div class="libSidebar_item lastItem">
-          <a href="http://lsu.edu">
-            <div class="libSidebar_LSU sidebarIcon_link"><img src="images/LSU_White-Reverse.png"></img>
-            </div>
-          </a>
-        </div>
+
+  <div class="roomModal" id="concourse">
+    <div class="modalContainer">
+      <div class="modalPicture"></div>
+      <div class="modalBody">
+
+        <div class="modalTitle">Main Entrance and Foyer</div>
+        <div class="modaltext">The main entrance and foyer will welcome library guests arriving from the LSU Quad. The entryway will be an open, energetic space that will showcase the south portion of the high-definition digital wall and grand staircase, as well as provide abundant lounge seating for gathering students and patrons.</div>
+
+        <div class="modalTitle">Technology Promenade</div>
+        <div class="modaltext">Adjacent to the nearby cafe, the technology promenade will be the premier architectural feature of renovated Middleton Library. Thye hallmark of this innovative area will be its high-definition digital wall that will transform the library into an exciting space of multimedia storytelling and 21st century learning.</div>
+
+        <div class="exit exit1">CLOSE</div>
       </div>
     </div>
-    <div class="libPage">
-      <div class="libHeader">
-        <a href="#roomNav">
-          <div class="roomIcon"><i class="fa fa-map fa-1x"></i></div>
-        </a>
-        <div class="hamburgerContainer">
-          <button id="my-icon" class="hamburger hamburger--emphatic" type="button">
-            <div class="menuLabel">Menu</div>
-             <span class="hamburger-box menuIcon">
-                <span class="hamburger-inner"></span>
-             </span>
-          </button>
-        </div>
-        <div class="libHeader_logo"><img src="images/libraries_logo.png"></img>
-        </div>
-        <div class="libHeader_menu">
-          <div class="libTitle">Naming Opportunities</div>
-          <div class="dropDown"><a href="middleton_floor1.html" class="libHeader_current">Middleton</a>
-            <div class="dropdown-content">
-              <a href="quietStudy.html">Reading Room</a>
-              <a href="groupDoorless.html">Doorless Group Study Rooms</a>
-              <a href="collaboration_first.html">Collaboration Area First Floor</a>
-              <a href="collaboration_second.html">Collaboration Area Second Floor</a>
-              <a href="groupConference.html">Group Study Conference Rooms</a>
-              <a href="artGallery.html">Art Gallery</a>
-              <a href="classroom.html">Classrooms</a>
-              <a href="staffConference.html">Staff Conference Room</a>
-              <a href="computerLab.html">Computer Lab</a>
-            </div>
-          </div>
+  </div>
 
-          <a href="contact.html">Contact</a>
-          <a href="https://securelb.imodules.com/s/1585/social.aspx?sid=1585&gid=1&pgid=708&cid=1508" target="_blank" class="donateLink">
-            <div class="donateButton">
-           <i class="fa fa-gift" aria-hidden="true"></i>
-           <span>Give Now</span>
-          </div></a>
-        </a>
-        </div>
+  <div class="roomModal" id="reading">
+    <div class="modalContainer">
+      <div class="modalPicture"></div>
+      <div class="modalBody">
+
+        <div class="modalTitle">Reading Room</div>
+        <div class="modaltext">A quiet space for focused study, the iconic reading room will include traditional seminar tables, arm chairs and appropriate lighting for long periods of concentration.</div>
+
+        <div class="exit exit1">CLOSE</div>
       </div>
-      <div class="roomHero">
-        <div class="heroTitle">
-          <span class="">Middleton</span><span class=""> Library</span>
-          <span class="heroSubtitle">21 Naming Opportunities</span>
-        </div>
-        <img src="images/photos/middleton.jpg" class="roomImg">
-        <div class="overlay"></div><div class="heroDetails">
-          <div class="heroFlavor">
-            Main Library
-          </div>
-          <div class="heroList">
-            <a href="quietStudy.html">
-              <div class="heroList_item quietStudy_item"><span class="itemHighlight ">1x Reading Room</span>
-                <div class="imageMap smallMap">
-                  <img src="images/middleton_1_white.png" class="firstMap"></img>
-                  <div class="hotspots">
-                    <div class="room" id="futureReading">
-                      <div class="roomTitle">Reading<br>Room</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </a>
-            <a href="groupDoorless.html">
-              <div class="heroList_item collaboration_item"><span class="itemHighlight">5x Doorless Group Study Rooms</span> </a>
-            <div class="imageMap smallMap">
-              <img src="images/middleton_1_white.png" class="zeroOpacity"></img>
-              <div class="hotspots">
-                <div class="doorlessGroup">
-                  <a href="groupDoorless.html">
-                    <div class="room doorLess" id="gsDoorless1">
-                    </div>
-                  </a>
+    </div>
+  </div>
 
-                  <a href="groupDoorless.html">
-                    <div class="room doorLess" id="gsDoorless2">
-                    </div>
-                  </a>
+  <div class="roomModal" id="collaboration">
+    <div class="modalContainer">
+      <div class="modalPicture"></div>
+      <div class="modalBody">
 
-                  <a href="groupDoorless.html">
-                    <div class="room doorLess" id="gsDoorless3">
-                    </div>
-                  </a>
+        <div class="modalTitle">Collaboration Space</div>
+        <div class="modaltext">The collaboration space will be a large, communal area to gather for group study and project-based learning. Offering an array of versatile furnishings and ample natural light, the collaboration space will serve as the central hub of renovated Middleton Library and allow students the opportunity to come together for multidisciplinary engagement.</div>
 
-                  <a href="groupDoorless.html">
-                    <div class="room doorLess" id="gsDoorless4">
-                    </div>
-                  </a>
-
-                  <a href="groupDoorless.html">
-                    <div class="room doorLess" id="gsDoorless5">
-                    </div>
-                  </a>
-
-
-                </div>
-
-              </div>
-            </div>
-
-
-            </div>
-            <a href="collaboration_first.html">
-              <div class="heroList_item collaboration_item"><span class="itemHighlight">2x Collaboration Areas</span></a>
-            <div class="imageMap smallMap">
-              <img src="images/middleton_1_white.png" class="zeroOpacity"></img>
-              <div class="hotspots">
-                <div class="collabMask_white" id="collaboration">
-                  <div class="roomTitle">Collaboration<br>Area</div>
-                </div>
-              </div>
-            </div>
-            </div>
-            <a href="groupConference.html" class="">
-              <div class="heroList_item groupStudy_item"><span class="itemHighlight">6x Group Study Conference Rooms</span></a>
-            <div class="imageMap smallMap">
-              <img src="images/middleton_1_white.png" class="zeroOpacity"></img>
-              <div class="hotspots">
-
-
-                <div class="room " id="gs2">
-                  <div class="roomTitle rotate">GS</div>
-                </div>
-
-
-                <div class="room " id="gs3">
-                  <div class="roomTitle">GS</div>
-                </div>
-
-
-                <div class="room " id="gs4">
-                  <div class="roomTitle">GS</div>
-                </div>
-
-
-                <div class="room " id="gs5">
-                  <div class="roomTitle">GS</div>
-                </div>
-
-
-                <div class="room " id="gs6">
-                  <div class="roomTitle">GS</div>
-                </div>
-
-
-                <div class="room" id="gs7">
-                  <div class="roomTitle">GS</div>
-                </div>
-
-              </div>
-            </div>
-            </div>
-            <a href="artGallery.html"><div class="heroList_item artGallery_item"><span class="itemHighlight">1x Art Gallery</span></a>
-
-
-              <div class="imageMap smallMap">
-                <img src="images/middleton_1_white.png" class="zeroOpacity"></img>
-                <div class="hotspots">
-                  <div class="room" id="artGallery">
-                    <div class="roomTitle">Collaboration<br>Area</div>
-                  </div>
-                </div>
-              </div>
-
-
-            </div>
-            <a href="classroom.html" class="floorChange">
-              <div class="heroList_item classroom_item"><span class="itemHighlight">4x Classrooms</span></a>
-            <div class="imageMap smallMap">
-              <img src="images/middleton_2_white.png" class="floor2"></img>
-              <div class="hotspots">
-                <div class="room" id="classroom4">
-                  <div class="roomTitle rotate">Classroom</div>
-                </div>
-
-                <div class="room" id="classroom3">
-                  <div class="roomTitle rotate">Classroom</div>
-                </div>
-
-                <div class="room" id="classroom2">
-                  <div class="roomTitle">Classroom</div>
-                </div>
-
-                <div class="room" id="classroom1">
-                  <div class="roomTitle rotate">Classroom</div>
-                </div>
-              </div>
-            </div>
-            </div>
-            <a href="staffConference.html" class="floorChange">
-              <div class="heroList_item staffConference_item"><span class="itemHighlight">1x Staff Conference Room</span></a>
-            <div class="imageMap smallMap">
-              <img src="images/middleton_2_white.png" class="floor2"></img>
-              <div class="hotspots">
-                <div class="room" id="staffConference">
-                  <div class="roomTitle">Staff<br>Conference<br>Room</div>
-                </div>
-              </div>
-            </div>
-            </div>
-            <a href="computerLab.html" class="floorChange">
-              <div class="heroList_item computerLab_item"><span class="itemHighlight">1x Computer Lab</span></a>
-            <div class="imageMap smallMap">
-              <img src="images/middleton_2_white.png" class="floor2"></img>
-              <div class="hotspots">
-                <div class="room" id="computerLab">
-                  <div class="roomTitle">Computer Lab</div>
-                </div>
-              </div>
-            </div>
-            </div>
-
-
-          </div>
-          </img>
-
-
-        </div>
-
-        <div class="mapTitleMiddleton">Middleton Library
-          <div class="mapSubtitle">First Floor</div>
-        </div>
+        <div class="exit exit1">CLOSE</div>
       </div>
-      <div class="libContent">
-        <div class="libCentral Middleton">
-          <div class="imageMap">
+    </div>
+  </div>
 
-            <img src="images/middleton_1new.png">
+  <div class="roomModal" id="southLounge">
+    <div class="modalContainer">
+      <div class="modalPicture"></div>
+      <div class="modalBody">
 
-            <div class="hotspots">
-              <a href="lounge_b.html">
-                <div class="room unnamed" id="futureLounge">
-                  <div class="roomTitle">North Commons</div>
-                </div>
-              </a>
+        <div class="modalTitle">South Lounge</div>
+        <div class="modaltext">The multipurpose north and south commons will allow revitalized Middleton Library to foster idea exchange, intellectual discussion and community programming. The commons will provide students with a relaxing, social space to enjoy a break from their studies and unwind among peers.</div>
 
-              <a href="lounge_a.html">
-                <div class="room unnamed" id="futureLounge2">
-                  <div class="roomTitle">South Commons</div>
-                </div>
-              </a>
+        <div class="exit exit1">CLOSE</div>
+      </div>
+    </div>
+  </div>
 
-              <a href="study_area.html">
-                <div class="room unnamed" id="studyArea">
-                  <div class="roomTitle">Study&nbsp;Area</div>
-                </div>
-              </a>
+  <div class="roomModal" id="northLounge">
+    <div class="modalContainer">
+      <div class="modalPicture"></div>
+      <div class="modalBody">
 
-              <a href="collaboration_first.html">
-                <div class="collabMask" id="collaboration">
-                  <div class="roomTitle">Collaboration<br>Area</div>
-                </div>
-              </a>
+        <div class="modalTitle">North Lounge</div>
+        <div class="modaltext">The multipurpose north and south commons will allow revitalized Middleton Library to foster idea exchange, intellectual discussion and community programming. The commons will provide students with a relaxing, social space to enjoy a break from their studies and unwind among peers.</div>
 
-              <a href="quietStudy.html"  >
-                <div class="room" id="futureReading" class="singleHotspot_this">
-                  <div class="roomTitle">Reading<br>Room</div>
-                </div>
-              </a>
+        <div class="exit exit1">CLOSE</div>
+      </div>
+    </div>
+  </div>
 
-              <div class="room unnamed" id="elevators">
-                <div class="roomTitle">Elevators</div>
-              </div>
+    <div class="roomModal" id="largeGroup">
+    <div class="modalContainer">
+      <div class="modalPicture"></div>
+      <div class="modalBody">
 
-              <div class="room unnamed" id="stairs">
-                <div class="roomTitle">Stairs</div>
-              </div>
+        <div class="modalTitle">Large Group Rooms</div>
+        <div class="modaltext">Nine large, enclosed study rooms outfitted with digital monitors and white boards will provide students the opportunity to break out from the open, collaborative area for more concentrated group exchanges. The large study rooms will be ideal for students who are working on creative projects and presentations in groups of six to eight.</div>
 
-              <div class="room named" id="shellTutorial"><div class="roomTitle">Shell<br>Tutorial<br>Center</div></div> <div class="room unnamed" id="flexSpace">
-                <div class="roomTitle">Flex<br>Space</div>
-              </div>
+        <div class="exit exit1">CLOSE</div>
+      </div>
+    </div>
+  </div>
 
+    <div class="roomModal" id="smallGroup">
+    <div class="modalContainer">
+      <div class="modalPicture"></div>
+      <div class="modalBody">
 
-              <div class="doorlessGroup">
-                <a href="groupDoorless.html">
-                  <div class="room doorLess" id="gsDoorless1">
-                  </div>
-                </a>
+        <div class="modalTitle">Small Group Rooms</div>
+        <div class="modaltext">Small group study rooms with digital monitors, white boards and state-of-the-art equipment will be located near the central collaboration space, providing a seamless flow between the social library experience and focused group work. Each room will have a capacity to serve groups of two to four.</div>
 
-                <a href="groupDoorless.html">
-                  <div class="room doorLess" id="gsDoorless2">
-                  </div>
-                </a>
+        <div class="exit exit1">CLOSE</div>
+      </div>
+    </div>
+  </div>  
 
-                <a href="groupDoorless.html">
-                  <div class="room doorLess" id="gsDoorless3">
-                  </div>
-                </a>
+    <div class="roomModal" id="phoneRoom">
+    <div class="modalContainer">
+      <div class="modalPicture"></div>
+      <div class="modalBody">
 
-                <a href="groupDoorless.html">
-                  <div class="room doorLess" id="gsDoorless4">
-                  </div>
-                </a>
+        <div class="modalTitle">Phone Rooms</div>
+        <div class="modaltext">Two soundproof phone rooms will be available for students on the first floor to ensure student privacy and that nearby spaces don't experience unnecessary disruption.</div>
 
-                <a href="groupDoorless.html">
-                  <div class="room doorLess" id="gsDoorless5">
-                  </div>
-                </a>
+        <div class="exit exit1">CLOSE</div>
+      </div>
+    </div>
+  </div>  
 
+    <div class="roomModal" id="helpDesk">
+    <div class="modalContainer">
+      <div class="modalPicture"></div>
+      <div class="modalBody">
 
-              </div>
+        <div class="modalTitle">Information Desks</div>
+        <div class="modaltext">Strategically located near the main entrances, students and library patrons will have multiple opportunities to interact with library faculty and staff as they explore all the ways Middleton Library can support their research.</div>
 
-              <a href="">
-                <div class="room transparent" id="studyBays">
-                  <div class="roomTitle baysTitle rotate">doorless&nbsp;group&nbsp;study&nbsp;rooms</div>
-                </div>
-              </a>
+        <div class="exit exit1">CLOSE</div>
+      </div>
+    </div>
+  </div>   
 
-              <a href="groupConference.html">
-                <div class="room " id="gs2">
-                  <div class="roomTitle rotate">GS</div>
-                </div>
-              </a>
+  <div class="roomModal" id="cafeLounge">
+    <div class="modalContainer">
+      <div class="modalPicture"></div>
+      <div class="modalBody">
 
-              <a href="groupConference.html">
-                <div class="room " id="gs3">
-                  <div class="roomTitle">GS</div>
-                </div>
-              </a>
+        <div class="modalTitle">Cafe and Lounge</div>
+        <div class="modaltext">A place to enjoy a sense of community, share ideas and re-energize, the cafe and lounge is sure to be a favorite area for students, faculty and staff alike. The space will include new, inviting furniture and a robust menu of delicious food and beverage choices that can be browsed on table-side tablets.</div>
 
-              <a href="groupConference.html">
-                <div class="room " id="gs4">
-                  <div class="roomTitle">GS</div>
-                </div>
-              </a>
+        <div class="exit exit1">CLOSE</div>
+      </div>
+    </div>
+  </div>  
 
-              <a href="groupConference.html">
-                <div class="room " id="gs5">
-                  <div class="roomTitle">GS</div>
-                </div>
-              </a>
+  <div class="roomModal" id="mediaLobby">
+    <div class="modalContainer">
+      <div class="modalPicture"></div>
+      <div class="modalBody">
 
-              <a href="groupConference.html">
-                <div class="room " id="gs6">
-                  <div class="roomTitle">GS</div>
-                </div>
-              </a>
+        <div class="modalTitle">Second Floor Media Lobby</div>
+        <div class="modaltext">The media lobby will function as a reception space for students and library patrons, where guests can browse displayed daily news and pertinent university communications. Plans for the lobby include a high-definition digital wall and comfortable, modern seating for visitors to the second floor.</div>
 
+        <div class="exit exit1">CLOSE</div>
+      </div>
+    </div>
+  </div>       
 
-              <a href="groupConference.html">
-                <div class="room" id="gs7">
-                  <div class="roomTitle">GS</div>
-                </div>
-              </a>
+     <a href="https://securelb.imodules.com/s/1585/social.aspx?sid=1585&gid=1&pgid=708&cid=1508" target="_blank" class="giftLink"><div class="giftPrompt"><i class="fa fa-gift" aria-hidden="true"></i><div class="giftText">Give Now</div></div></a>
 
+    <div class="header">
+    <a href="#menu2"><img src="images/librariesWhite.png" class="libLogo" alt="LSU Libraries"></a>
+    <div class="breadcrumb"><a href="http://lib.lsu.edu" target="_blank" class="homeBreadcrumb">LSU Libraries Homepage</a><a href="index.php"><span class="whitebg"> <i class="fa fa-arrow-right" aria-hidden="true"></i>Naming Opportunities</span></a></div>
+    </div>
 
-              <div class="room unnamed" id="cf1">
-                <div class="roomTitle">CR</div>
-              </div>
-
-
-              <div class="room unnamed" id="cf2">
-                <div class="roomTitle">CR</div>
-              </div>
-
-
-              <div class="room unnamed " id="cf3">
-                <div class="roomTitle">CR</div>
-              </div>
-
-
-              <div class="room unnamed" id="loading">
-                <div class="roomTitle">Loading Zone</div>
-              </div>
-
-              <div class="room unnamed" id="loading2">
-                <div class="roomTitle rotate">Loading Zone</div>
-              </div>
-
-              <div class="room unnamed" id="vestibuleC">
-                <div class="roomTitle rotate">Vestibule&nbsp;C</i>
-                </div>
-              </div>
-
-              <div class="room unnamed" id="vestibuleB">
-                <div class="roomTitle">Vestibule B</i>
-                </div>
-              </div>
-
-              <div class="room unnamed" id="vestibuleA">
-                <div class="roomTitle">Vestibule A</i>
-                </div>
-              </div>
-
-              <div class="room unnamed" id="mens1">
-                <div class="roomTitle rotate">Mens</i>
-                </div>
-              </div>
-
-              <div class="room unnamed" id="womens1">
-                <div class="roomTitle rotate">Womens</i>
-                </div>
-              </div>
-
-              <div class="room unnamed" id="mechanical">
-                <div class="roomTitle">Mechanical</i>
-                </div>
-              </div>
-
-<a href="artGallery.html">
-              <div class="room unnamed transparent" id="artGallery">
-                <div class="roomTitle rotate">Art&nbsp;Gallery</i>
-                </div>
-              </div></a>
-
-              <a href="">
-                <div class="returnMask greyMask" id="bookReturn">
-                  <div class="roomTitle">Book<br>Return</div>
-                </div>
-              </a>
-
-              <div class="chartwellsMask" id="chartwells">
-                <div class="roomTitle">Caf&eacute; <br> and <br>Lounge</div>
-              </div>
-
-              <div class="room transparent" id="southEntry">
-                <i class="fa fa-arrow-up fa-1x"></i>
-                <div class="roomTitle">Entry</div>
-              </div>
-
-              <div class="room transparent" id="eastEntry">
-                <i class="fa fa-arrow-left fa-1x"></i>
-                <div class="roomTitle">Entry</div>
-              </div>
-
-              <div class="room transparent" id="northEntry">
-                <div class="roomTitle">Entry</div>
-                <i class="fa fa-arrow-down fa-1x"></i>
-              </div>
-
-            </div>
+    <div class="mapSection parallax-window" data-parallax="scroll" data-image-src="images/photos/middletonDark.jpg">
+    <div class="mapWidth">
+      <div class="map">
+        <div class="mapHeader">
+          <div class="textHeader">
+          <h1>Middleton Library</h1>
+          <h2>25 Naming Opportunities</h2>
           </div>
+          <div class="keys">       
 
-          <div class="roomText floorPage">
+       <div class="mapLegend" id="legend">
 
-
-            <div class="roomName">Middleton Library</div>
-            <div class="roomDesc">The Middleton Library renovations campaign is one of LSU's most exciting priorities of the 2017-2018 academic year. A revitalized Middleton Library will immediately elevate LSU's academic experience and intellectual life, and strengthen the university's ability to attract and retain the brightest and most talented students and faculty. Below is a list of nameable spaces scheduled for renovation. It is the generosity of supporters like you that will enable LSU to transform Middleton Library into a 21st century research library.</div><br>
-
-            <div class="roomName">Total Area</div>
-            <div class="roomDesc">218, 843 sq.ft.</div><br>
-
-            <a href="#roomNav">
-              <div class="roomNav"><i class="fa fa-map fa-2x"></i> Map
-                <br>Navigation</div>
-            </a>
-
-
-            <div class="mapControls">
-              <div class="libControls">
-                <ul>
-                  <li onclick="window.location='middleton_floor1.html';">
-                    <input type="radio" id="s-option" name="selector" checked>
-                    <label for="s-option">Middleton</label>
-                    <div class="check">
-                      <div class="inside"></div>
-                    </div>
-                  </li>
-                  <li onclick="window.location='mapsite.html';">
-                    <input type="radio" id="t-option" name="selector">
-                    <label for="t-option">Hill Memorial</label>
-                    <div class="check">
-                      <div class="inside"></div>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-              <div class="libControls floorControls">
-                <ul>
-                  <li onclick="window.location='middleton_floor1.html';">
-                    <input type="radio" id="u-option" name="floor" checked>
-                    <label for="u-option">Floor 1</label>
-                    <div class="check">
-                      <div class="inside"></div>
-                    </div>
-                  </li>
-                  <li onclick="window.location='middleton_floor2.html';">
-                    <input type="radio" id="v-option" name="floor">
-                    <label for="v-option">Floor 2</label>
-                    <div class="check">
-                      <div class="inside"></div>
-                    </div>
-                  </li>
-
-                </ul>
+          
+            <div class="mapKey mapKey1">
+              <div class="key key1">
+                <div class="keyNumber">1</div>
+                <div class="keyText">
+                  <div class="keyTitle">Main Entrance and Technology Promenade</div>
+                  <div class="keySubtitle">4,462 ft&#xb2; </div>
+                </div>
               </div>
             </div>
-            <div class="foldControls">
+
+          
+            <div class="mapKey mapKey2">
+              <div class="key key2">
+                <div class="keyNumber">2</div>
+                <div class="keyText">
+                  <div class="keyTitle">Reading Room</div>
+                  <div class="keySubtitle">2,787 ft&#xb2;</div>
+                </div>
+              </div>
             </div>
 
-          </div>
+          
+            <div class="mapKey mapKey3">
+              <div class="key key3">
+                <div class="keyNumber">3</div>
+                <div class="keyText">
+                  <div class="keyTitle">Collaboration Space</div>
+                  <div class="keySubtitle">16,122 ft&#xb2;</div>
+                </div>
+              </div>
+            </div>
+    
 
-
+          
+            <div class="mapKey mapKey4">
+              <div class="key key4">
+                <div class="keyNumber">4</div>
+                <div class="keyText">
+                  <div class="keyTitle">South Commons</div>
+                  <div class="keySubtitle">872 ft&#xb2;</div>
+                </div>
+              </div>
+            </div>
+          
+            <div class="mapKey mapKey5">
+              <div class="key key5">
+                <div class="keyNumber">5</div>
+                <div class="keyText">
+                  <div class="keyTitle">North Commons</div>
+                  <div class="keySubtitle">872 ft&#xb2;</div>
+                </div>
+              </div>
+            </div>
+          
+            <div class="mapKey mapKey6">
+              <div class="key key6">
+                <div class="keyNumber">6</div>
+                <div class="keyText">
+                  <div class="keyTitle">Large Group Rooms (x9)</div>
+                  <div class="keySubtitle">1,721 ft&#xb2;</div>
+                </div>
+              </div>
+            </div>
+          
+            <div class="mapKey mapKey7">
+              <div class="key key7">
+                <div class="keyNumber">7</div>
+                <div class="keyText">
+                  <div class="keyTitle">Small Group Rooms (x4)</div>
+                  <div class="keySubtitle">407 ft&#xb2;</div>
+                </div>
+              </div>
+            </div>
+          
+            <div class="mapKey mapKey8">
+              <div class="key key8">
+                <div class="keyNumber">8</div>
+                <div class="keyText">
+                  <div class="keyTitle">Individual Phone Rooms (x2)</div>
+                  <div class="keySubtitle">51 ft&#xb2;</div>
+                </div>
+              </div>
+            </div>
+          
+            <div class="mapKey mapKey9">
+              <div class="key key9">
+                <div class="keyNumber">9</div>
+                <div class="keyText">
+                  <div class="keyTitle">Information Desks (x3)</div>
+                  <div class="keySubtitle">584 ft&#xb2;</div>
+                </div>
+              </div>
+            </div>
+          
+            <div class="mapKey mapKey10">
+              <div class="key key10">
+                <div class="keyNumber">10</div>
+                <div class="keyText">
+                  <div class="keyTitle">Cafe and Lounge</div>
+                  <div class="keySubtitle">6,297 ft&#xb2;</div>
+                </div>
+              </div>
+            </div>
+          
+            <div class="mapKey mapKey11">
+              <div class="key key11">
+                <div class="keyNumber">11</div>
+                <div class="keyText">
+                  <div class="keyTitle">Media Lobby</div>
+                  <div class="keySubtitle">620 ft&#xb2;</div>
+                </div>
+              </div>
+            </div>                            
+                                                                                                                 
+        </div>
         </div>
 
-
-        <div class="libGrid">
-          <a href="collaboration_first.html">
-            <div class="libGrid_item">
-              <div class="itemTitle">Collaboration<br>Area</div><img src="images/thumbnails/tn_collaboration.jpg"></img>
-            </div>
-          </a>
-          <a href="collaboration_second.html">
-            <div class="libGrid_item">
-              <div class="itemTitle">Collaboration<br>Space Second Floor</div><img src="images/thumbnails/tn_collaborative_seating.jpg"></img>
-            </div>
-          </a>
-          <a href="groupDoorless.html">
-            <div class="libGrid_item">
-              <div class="itemTitle">Doorless<br>Group Study<br>Room</div><img src="images/thumbnails/tn_groupDoorless.jpg"></img>
-            </div>
-          </a>
-          <a href="groupConference.html">
-            <div class="libGrid_item">
-              <div class="itemTitle">Group Study<br>Conference<br>Room</div><img src="images/thumbnails/tn_groupStudy.jpg"></img>
-            </div>
-          </a>
-          <a href="quietStudy.html">
-            <div class="libGrid_item">
-              <div class="itemTitle">Quiet<br>Reading<br>Room</div><img src="images/thumbnails/tn_quietStudy.jpg"></img>
-            </div>
-          </a>
-          <a href="computerLab.html">
-            <div class="libGrid_item">
-              <div class="itemTitle">Computer<br>Lab</div><img src="images/thumbnails/tn_computerLab.jpg"></img>
-            </div>
-          </a>
-          <a href="classroom.html">
-            <div class="libGrid_item">
-              <div class="itemTitle">Classrooms</div><img src="images/thumbnails/tn_classroom.jpg"></img>
-            </div>
-          </a>
-          <a href="staffConference.html">
-            <div class="libGrid_item">
-              <div class="itemTitle">Staff <br>Conference<br> Room</div><img src="images/thumbnails/tn_staffConference.jpg"></img>
-            </div>
-          </a>
-
-
-
         </div>
-        <div class="libFooter">
+        <img src="images/newmap.png"  alt="Middleton Map" class="newmap">
+        <div class="mapText">The Middleton Library renovations campaign is one of LSU's most exciting priorities of the 2017-2018 academic year. A revitalized Middleton Library will immediately elevate LSU's academic experience and intellectual life, and strengthen the university's ability to attract and retain the brightest and most talented students and faculty. Below is a list of nameable spaces scheduled for renovation. It is the generosity of supporters like you that will enable LSU to transform Middleton Library into a 21st century research library.
+        </div>
+         <div class="zoomPrompt"><div id="mouse" class="mouse"></div>Click and hold to <span class="whitebg">&nbsp;zoom</span></div>
+      </div>
+</div>
+      <div class="mapOptions">
+        <div class="contactInfo"><span class="boldText">LSU Libraries Development Office</span><br><i class="fa fa-phone-square" aria-hidden="true"></i>
+ 225-578-6552<br><i class="fa fa-envelope-square" aria-hidden="true"></i>
+givetolibraries@lsu.edu</div>
+
+        <div class="mapLegend2">
+          <div class="iconKey"><img src="images/stairsKey.png" alt="Stairs"><div class="iconText">Stairs</div></div>
+          <div class="iconKey"><img src="images/elevatorKey.png" alt="Elevator"><div class="iconText">Elevator</div></div>          
+          <div class="iconKey"><img src="images/fireKey.png" alt="Fire Escape"><div class="iconText">Fire Escape</div></div>
+          <div class="iconKey"><img src="images/restroomKey.png" alt="Restroom"><div class="iconText">Restroom</div></div>
+          <div class="iconKey"><img src="images/tutorialKey.png" alt="Tutoring Center"><div class="iconText">Tutoring Center</div></div>
+          <div class="iconKey"><img src="images/maintenanceKey.png" alt="Maintenance"><div class="iconText">Maintenance</div></div>                                                  
+        </div>
+
+      </div>
+
+    </div>
+    <div class="textBody">
+      <h3> Middleton Library Renovations</h3>
+    <div class="textContent"><br>
+The Middleton Library renovations campaign is one of LSU's most exciting priorities of the 2017-2018 academic year. A revitalized Middleton Library will immediately elevate LSU's academic experience and intellectual life, and strengthen the university's ability to attract and retain the brightest and most talented students and faculty. Below is a list of nameable spaces scheduled for renovation. It is the generosity of supporters like you that will enable LSU to transform Middleton Library into a 21st century research library.<br><br>
+
+A revitalized Middleton Library will enable LSU to advance its core mission of promoting outstanding teaching, learning and research. To find out more about how you can help support this important initiative, visit lib.lsu.edu/naming or contact LSU Libraries Development Office.
+
+    </div>
+
+            <div class="libFooter">
           <div class="leftFooter">
             <div class="leftFooter_item">
               LSU Libraries <br> Baton Rouge, LA 70803<br> Tel (225) 578-5652<br> Fax (225) 578-9432
             </div>
           </div>
-          <div class="rightFooter">
-            <a href="https://www.facebook.com/LSULibraries"><i class="fa fa-facebook-square fa-2x"></i></a> <a href="https://twitter.com/lsulibraries"><i class="fa fa-twitter-square fa-2x"></i></a> <a href="http://www.youtube.com/playlist?list=PLmPBqhpgpws2YQqSOiJM4ZCt5yNY6SCAk"><i class="fa fa-youtube-square fa-2x"></i></a> <a href="http://news.blogs.lib.lsu.edu/feed/"><i class="fa fa-rss-square fa-2x"></i></a> <a href="https://instagram.com/lsulibraries/"><i class="fa fa-instagram fa-2x"></i></a>
-          </div>
+                  <div class="rightFooter">
+                    <a href="https://www.facebook.com/LSULibraries"><i class="fa fa-facebook-square fa-2x" title="LSU Libraries Facebook page"></i><span class="screen-reader-text"> LSU Libraries Facebook page </span></a>
+                    <a href="https://twitter.com/lsulibraries"><i class="fa fa-twitter-square fa-2x" title="LSU Libraries Twitter page"><span class="screen-reader-text"> LSU Libraries Twitter</span></i></a>
+                    <a href="http://www.youtube.com/playlist?list=PLmPBqhpgpws2YQqSOiJM4ZCt5yNY6SCAk" title="LSU Libraries YouTube page"><i class="fa fa-youtube-square fa-2x"></i><span class="screen-reader-text"> LSU Libraries YouTube</span></a>
+                    <a href="http://news.blogs.lib.lsu.edu/feed/"><i class="fa fa-rss-square fa-2x" title="LSU Libraries news RSS feed"></i><span class="screen-reader-text"> LSU Libraries Twitter</span></a>
+                    <a href="https://instagram.com/lsulibraries/"><i class="fa fa-instagram fa-2x" title="LSU Libraries Instagram feed"></i><span class="screen-reader-text"> LSU Libraries Instagram</span></a>
+                  </div>
         </div>
         <div class="belowFooter">
           <div class="belowFooter_item">
@@ -616,13 +351,10 @@
             Copyright &copy; 2016. All Rights Reserved. Official Web Page of Louisiana State University.
           </div>
         </div>
-      </div>
-
 
     </div>
 
-
-  </div>
+      </div>
 
   <nav id="about">
     <ul>
@@ -731,7 +463,7 @@
       <ul>
         <li class="mm-divider">Middleton Library</li>
       <li><a href="https://securelb.imodules.com/s/1585/social.aspx?sid=1585&gid=1&pgid=708&cid=1508" target="_blank" class="giveMobile"><i class="fa fa-gift fa-1x"></i>Give Now</a></li>
-<li><a href="contact.html"><i class="fa fa-phone" aria-hidden="true"></i>Contact Us</a></li>
+        <li><a href="contact.html"><i class="fa fa-phone" aria-hidden="true"></i>Contact Us</a></li>
         <li><a href="middleton_floor1.html"><i class="fa fa-map fa-1x"></i>First Floor</a></li>
         <li><a href="middleton_floor2.html"><i class="fa fa-map fa-1x"></i>Second Floor</a></li>
         <li><a href="quietStudy.html"><i class="fa fa-map-marker fa-1x"></i>Reading Room</a></li>
@@ -742,17 +474,35 @@
                 <li><a href="classroom.html"><i class="fa fa-map-marker fa-1x"></i>Classrooms</a></li>
         <li><a href="staffConference.html"><i class="fa fa-map-marker fa-1x"></i>Staff Conference Room</a></li>
         <li><a href="computerLab.html"><i class="fa fa-map-marker fa-1x"></i>Computer Lab</a></li>
-
-
       </ul>
     </nav>
 
 
+    <nav id="roomNavLeft">
+      <ul>
+        <li class="mm-divider">Middleton Library</li>
+      <li><a href="https://securelb.imodules.com/s/1585/social.aspx?sid=1585&gid=1&pgid=708&cid=1508" target="_blank" class="giveMobile"><i class="fa fa-gift fa-1x"></i>Give Now</a></li>
+        <li><a href="contact.html"><i class="fa fa-phone" aria-hidden="true"></i>Contact Us</a></li>
+        <li><a href="middleton_floor1.html"><i class="fa fa-map fa-1x"></i>First Floor</a></li>
+        <li><a href="middleton_floor2.html"><i class="fa fa-map fa-1x"></i>Second Floor</a></li>
+        <li><a href="quietStudy.html"><i class="fa fa-map-marker fa-1x"></i>Reading Room</a></li>
+        <li><a href="groupDoorless.html"><i class="fa fa-map-marker fa-1x"></i>Doorless Study Rooms</a></li>
+        <li><a href="collaboration_first.html"><i class="fa fa-map-marker fa-1x"></i>Collaborative Space First Floor</a></li>
+        <li><a href="collaboration_second.html"><i class="fa fa-map-marker fa-1x"></i>Collaborative Space Second Floor</a></li>
+        <li><a href="groupConference.html"><i class="fa fa-map-marker fa-1x"></i>Group Study Conference Rooms</a></li>
+                <li><a href="classroom.html"><i class="fa fa-map-marker fa-1x"></i>Classrooms</a></li>
+        <li><a href="staffConference.html"><i class="fa fa-map-marker fa-1x"></i>Staff Conference Room</a></li>
+        <li><a href="computerLab.html"><i class="fa fa-map-marker fa-1x"></i>Computer Lab</a></li>
+      </ul>
+    </nav>
+
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
   <script src="js/scrollreveal.js" type="text/javascript" charset="utf-8"></script>
   <script src="js/jquery.mmenu.all.min.js" type="text/javascript" charset="utf-8"></script>
-  <script src="js/pastel.js" type="text/javascript" charset="utf-8"></script>
+  <script src="js/jquery.zoom.js" type="text/javascript" charset="utf-8"></script>
+  <script src="js/parallaxScroll.js" type="text/javascript" charset="utf-8"></script>
 
+  <script src="js/pastel.js" type="text/javascript" charset="utf-8"></script>
 </body>
 
 </html>

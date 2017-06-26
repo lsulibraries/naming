@@ -3,30 +3,111 @@
       $("#research ul").clone().appendTo("#menu2 ul:nth-child(1) > li:nth-child(0n+4)");
       $("#services ul").clone().appendTo("#menu2 ul:nth-child(1) > li:nth-child(0n+5)");
       $("#mapTitle").clone().appendTo(".libCentral");
+      $('img.newmap').clone().appendTo(".libContainer");
+      $("img.zoomImg").addClass("left").appendTo(".libContainer");
+
+$('.parallax-window').parallax({imageSrc: 'images/photos/middletonDark.jpg'});
 
 
-$(".floorChange").hover(
-  function() {
-    $(".firstMap").addClass("zeroOpacity");
-  }, function() {
-    $(".firstMap").removeClass("zeroOpacity");
-  }
-);
-
-$(".slide").click(function() {
-  $( ".floorSelect" ).toggleClass( "slideOut" );
+$( ".mapKey1" ).on( "click", function() {
+  $("#concourse").toggleClass('flex');
+  $(".mapSection, .header, .newmap, .giftPrompt").toggleClass('darken');
 });
-window.sr = ScrollReveal();
-sr.reveal('.heroTitle', { duration: 1000, delay: 300, origin: 'bottom', distance: '25px', scale: 1, opacity: 0, });
+
+$( ".mapKey2" ).on( "click", function() {
+  $("#reading").toggleClass('flex');
+  $(".mapSection, .header, .newmap, .giftPrompt").toggleClass('darken');
+});
+
+$( ".mapKey3" ).on( "click", function() {
+  $("#collaboration").toggleClass('flex');
+  $(".mapSection, .header, .newmap, .giftPrompt").toggleClass('darken');
+});
+
+$( ".mapKey4" ).on( "click", function() {
+  $("#southLounge").toggleClass('flex');
+  $(".mapSection, .header, .newmap, .giftPrompt").toggleClass('darken');
+});
+
+$( ".mapKey5" ).on( "click", function() {
+  $("#northLounge").toggleClass('flex');
+  $(".mapSection, .header, .newmap, .giftPrompt").toggleClass('darken');
+});
+
+$( ".mapKey6" ).on( "click", function() {
+  $("#largeGroup").toggleClass('flex');
+  $(".mapSection, .header, .newmap, .giftPrompt").toggleClass('darken');
+});
+
+$( ".mapKey7" ).on( "click", function() {
+  $("#smallGroup").toggleClass('flex');
+  $(".mapSection, .header, .newmap, .giftPrompt").toggleClass('darken');
+});
+
+$( ".mapKey8" ).on( "click", function() {
+  $("#phoneRoom").toggleClass('flex');
+  $(".mapSection, .header, .newmap, .giftPrompt").toggleClass('darken');
+});
+
+$( ".mapKey9" ).on( "click", function() {
+  $("#helpDesk").toggleClass('flex');
+  $(".mapSection, .header, .newmap, .giftPrompt").toggleClass('darken');
+});
+
+$( ".mapKey10" ).on( "click", function() {
+  $("#cafeLounge").toggleClass('flex');
+  $(".mapSection, .header, .newmap, .giftPrompt").toggleClass('darken');
+});
+
+$( ".mapKey11" ).on( "click", function() {
+  $("#mediaLobby").toggleClass('flex');
+  $(".mapSection, .header, .newmap, .giftPrompt").toggleClass('darken');
+});
+
+$( ".exit" ).on( "click", function() {
+  $(".roomModal").removeClass('flex');
+  $(".mapSection, .header, .newmap, .giftPrompt").removeClass('darken');
+ });
+
+  $('.map img.newmap')
+    .wrap('<span class="mapWrap" style="display:inline-block"></span>')
+    .parent()
+    .zoom({ on:'grab' });
+
+
+$('span.mapWrap').mousedown(
+  function(event) {
+    switch (event.which) {
+      case 1:
+        $('div.mapWidth').children().not($('.map')).addClass("lessOpacity");
+        $('img.newmap, .giftPrompt').addClass("invisible");
+        $('div.map').children().not('.mapWrap').addClass("darken");
+        $('div.mapOptions').addClass("darken");        
+        $('div.mapWidth img.zoomImg').addClass("undarken");
+        $('img.zoomImg').removeClass("invisible");        
+      }
+    }
+  );
+
+
+$('html').mouseup(
+  function(){
+        $('div.map').children().removeClass("lessOpacity");
+        $('img.newmap, .giftPrompt').removeClass("invisible");
+        $('div.map').contents().removeClass("darken");    
+        $('div.mapSection').contents().removeClass("darken");                 
+        $('img.zoomImg').addClass("invisible");
+
+      }
+  );
+
+
 $(document).ready(function() {
 
 
 
-
-    $(".libContainer").fadeIn(1500);
-
-$("#about").mmenu({
-
+  $(".libContainer").fadeIn(1500);
+  $("#about").mmenu({
    "extensions": [
       'pagedim-black',
       'border-full',
@@ -58,6 +139,20 @@ $("#roomNav").mmenu({
      offCanvas: {
                position  : "right",
             },
+   "extensions": [
+      'pagedim-black',
+      'border-full',
+'effect-menu-slide',
+   ],
+   "iconPanels": true,
+"navbar": {
+"title": "Map Navigation",
+}
+
+});
+
+$("#roomNavLeft").mmenu({
+
    "extensions": [
       'pagedim-black',
       'border-full',
@@ -112,6 +207,13 @@ $("#menu2").mmenu({
          columns: true
 
 });
+
+window.sr = ScrollReveal();
+sr.reveal('.newmap, .zoomPrompt', { duration: 500, delay: 120, origin: 'top', distance: '25px', scale: 1, opacity: 0, useDelay: 'once'});
+sr.reveal('.breadcrumb, .libLogo', { duration: 1000, delay: 0, origin: 'left', distance: '500px', scale: 1, opacity: 0, useDelay: 'once'});
+sr.reveal('.mapOptions, .mapHeader, .mapText', { duration: 1000, delay: 300, origin: 'bottom', distance: '25px', scale: 1, opacity: 0, useDelay: 'once'});
+sr.reveal('.modalContainer', { duration: 100, delay: 100, origin: 'bottom', distance: '25px', scale: 1, opacity: 1});
+sr.reveal('.giftPrompt', { duration: 500, delay: 600, origin: 'top', distance: '25px', scale: 1, opacity: 0, useDelay: 'onload'});
 });
 
 
@@ -147,3 +249,4 @@ API.bind( "closed", function() {
       $icon.removeClass( "is-active" );
    }, 100);
 });
+
