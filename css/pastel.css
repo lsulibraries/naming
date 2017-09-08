@@ -1595,6 +1595,11 @@ li.mm-divider {
   background: rgba(0, 0, 0, 0.2) !important;
 }
 
+.footer {
+  background: white;
+  padding: 0px 10%;
+}
+
 .libFooter {
   height: auto;
   width: 100%;
@@ -1602,7 +1607,7 @@ li.mm-divider {
   display: flex;
   flex-direction: row;
   border-bottom: 1px solid #474747;
-  margin-top: 200px;
+  padding-top: 200px;
 }
 
 .rightFooter {
@@ -2433,41 +2438,50 @@ span.whitebg {
   font-weight: 700;
 }
 
-.textBody, .textBody2 {
+.textBody, .textBody2, .textBody3 {
   background: white;
   padding: 5% 10% 5% 10%;
   position: relative;
   display: flex;
   flex-direction: column;
 }
-.textBody .textContainer, .textBody2 .textContainer {
+.textBody .textContainer, .textBody2 .textContainer, .textBody3 .textContainer {
   max-width: 1000px;
   align-self: center;
 }
-.textBody h2, .textBody2 h2 {
+.textBody h2, .textBody2 h2, .textBody3 h2 {
   color: #474747;
   font-weight: 700;
-  font-size: 50px;
+  font-size: 40px;
 }
-.textBody h3, .textBody2 h3 {
+.textBody h3, .textBody2 h3, .textBody3 h3 {
   font-size: 26px;
 }
 
 .textBody2 {
   background: #d0d0d0;
+  z-index: 2;
+}
+
+.textBody3 h2 {
+  margin: 0px;
+}
+.textBody3 h3 {
+  margin-bottom: 40px;
 }
 
 h3 {
   margin: 0px;
 }
 
-.textBody::before, .textBody2::before {
+.textBody::before, .textBody2::before, .textBody3::before, .textBody3::before {
   content: '';
   border-left: 25px solid transparent;
   border-right: 25px solid transparent;
   border-bottom: 35px solid white;
   position: absolute;
   top: -20px;
+  z-index: 3;
 }
 
 .textBody2::before {
@@ -2477,6 +2491,7 @@ h3 {
   border-bottom: 35px solid #d0d0d0;
   position: absolute;
   top: -20px;
+  right: 10%;
 }
 
 .textContent {

@@ -335,21 +335,40 @@ The initiative to revitalize Middleton Library is estimated to be a $8,650,000 c
       </div>
 
 
-    <div class="textBody2">
-    <div class="textContainer">
-      <h2>DEAR FRIENDS,</h2>
+<div class="textBody2">
+  <div class="textContainer">
+  <h2>DEAR FRIENDS,</h2>
     <div class="textContent">
-I am pleased to announce our newest initiative at LSU: a campaign to renovate Troy H. Middleton Library, the centerpiece of our research library complex.<br><br>
-Middleton Library is one of the most visited facilities on the campus and houses LSU’s most frequently accessed academic assets, which is an indication that the library is still at the heart of academic life. The plan is to modernize components of Middleton Library with an eye toward developing spaces conductive to student collaboration and bolstering research support mechanisms.<br><br>
-A renovated Middleton Library will enable LSU to attract and retain the most talented students and faculty in the years to come, to conduct meaningful research and to advance our reputation as a leading university in the country. I sincerely hope that the community and friends of LSU will stand with me and generously support this initiative. 
-<br><br>
-With warm regards,
-<br><img class='signature' src='images/fkingsign.png'><img class="photo" src="images/fkingphoto.png"><br>
-F. King Alexander<br>
-LSU President
+    I am pleased to announce our newest initiative at LSU: a campaign to renovate Troy H. Middleton Library, the centerpiece of our research library complex.<br><br>
+    Middleton Library is one of the most visited facilities on the campus and houses LSU’s most frequently accessed academic assets, which is an indication that the library is still at the heart of academic life. The plan is to modernize components of Middleton Library with an eye toward developing spaces conductive to student collaboration and bolstering research support mechanisms.<br><br>
+    A renovated Middleton Library will enable LSU to attract and retain the most talented students and faculty in the years to come, to conduct meaningful research and to advance our reputation as a leading university in the country. I sincerely hope that the community and friends of LSU will stand with me and generously support this initiative. 
+    <br><br>
+    With warm regards,
+    <br><img class='signature' src='images/fkingsign.png'><img class="photo" src="images/fkingphoto.png"><br>
+    F. King Alexander<br>
+    LSU President
+    </div>
+  </div>
+</div>
 
-    </div></div>
-      </div>
+
+<div class="textBody3">
+  <div class="textContainer">
+  <h2>A REVITALIZED</h2>
+  <h3>Middleton Library will…</h3>
+    <div class="textContent">
+   Provide LSU students with a versatile, multidisciplinary learning environment that encourages collaboration, multicultural competency and creative problem-solving.<br><br>
+Elevate students’ academic performance by providing spaces, collections, and services that better match how modern professors teach, and modern students learn. Large, flexible collaborative study spaces will sit side-by-side group study rooms, and a traditional reading room designed for long periods of immersive work.
+    <br><br>
+    Enhance students’ exposure to state-of-the-art technologies that will prepare them for the workforce of tomorrow. Technological investments will include a robust electrical system to accommodate 21st century computing and mobile devices, monitors, high-definition visualization technologies, and video conferencing. <br><br>
+Enable LSU to recruit the best students and faculty by offering an inspiring learning environment that is also comfortable, safe, and open at all hours. It will also feature an array of academic support services such as research and writing assistance, tutoring, and IT support. <br><br>Reaffirm the university’s commitment to the excellence in learning and research that lie at the heart of its academic mission. <br><br>
+
+
+
+    </div>
+  </div>
+</div>
+<div class="footer">
 
             <div class="libFooter">
           <div class="leftFooter">
@@ -374,7 +393,7 @@ LSU President
             Copyright &copy; 2016. All Rights Reserved. Official Web Page of Louisiana State University.
           </div>
         </div>
-
+</div>
     </div>
 
   <nav id="about">

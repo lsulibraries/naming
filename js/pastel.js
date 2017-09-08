@@ -209,9 +209,9 @@ $("#menu2").mmenu({
 });
 
 window.sr = ScrollReveal();
-sr.reveal('.newmap, .zoomPrompt', { duration: 500, delay: 120, origin: 'top', distance: '25px', scale: 1, opacity: 0, useDelay: 'once'});
+sr.reveal('.newmap, .zoomPrompt, .textContainer', { duration: 500, delay: 120, origin: 'top', distance: '25px', scale: 1, opacity: 0, useDelay: 'once'});
 sr.reveal('.breadcrumb, .libLogo', { duration: 1000, delay: 0, origin: 'left', distance: '500px', scale: 1, opacity: 0, useDelay: 'once'});
-sr.reveal('.mapOptions, .mapHeader, .mapText', { duration: 1000, delay: 300, origin: 'bottom', distance: '25px', scale: 1, opacity: 0, useDelay: 'once'});
+sr.reveal('.mapOptions, .mapHeader, .mapText, .photo', { duration: 1000, delay: 300, origin: 'bottom', distance: '25px', scale: 1, opacity: 0, useDelay: 'once'});
 sr.reveal('.modalContainer', { duration: 100, delay: 100, origin: 'bottom', distance: '25px', scale: 1, opacity: 1});
 sr.reveal('.giftPrompt', { duration: 500, delay: 600, origin: 'top', distance: '25px', scale: 1, opacity: 0, useDelay: 'onload'});
 });
