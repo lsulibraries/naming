@@ -357,11 +357,15 @@ The initiative to revitalize Middleton Library is estimated to be a $8,650,000 c
   <h2>A REVITALIZED</h2>
   <h3>Middleton Library will…</h3>
     <div class="textContent">
-   Provide LSU students with a versatile, multidisciplinary learning environment that encourages collaboration, multicultural competency and creative problem-solving.<br><br>
-Elevate students’ academic performance by providing spaces, collections, and services that better match how modern professors teach, and modern students learn. Large, flexible collaborative study spaces will sit side-by-side group study rooms, and a traditional reading room designed for long periods of immersive work.
-    <br><br>
-    Enhance students’ exposure to state-of-the-art technologies that will prepare them for the workforce of tomorrow. Technological investments will include a robust electrical system to accommodate 21st century computing and mobile devices, monitors, high-definition visualization technologies, and video conferencing. <br><br>
-Enable LSU to recruit the best students and faculty by offering an inspiring learning environment that is also comfortable, safe, and open at all hours. It will also feature an array of academic support services such as research and writing assistance, tutoring, and IT support. <br><br>Reaffirm the university’s commitment to the excellence in learning and research that lie at the heart of its academic mission. <br><br>
+<p>Provide LSU students with a versatile, multidisciplinary learning environment that encourages collaboration, multicultural competency and creative problem-solving.</p>
+
+<p>Elevate students’ academic performance by providing spaces, collections, and services that better match how modern professors teach, and modern students learn. Large, flexible collaborative study spaces will sit side-by-side group study rooms, and a traditional reading room designed for long periods of immersive work.</p>
+
+<p>Enhance students’ exposure to state-of-the-art technologies that will prepare them for the workforce of tomorrow. Technological investments will include a robust electrical system to accommodate 21st century computing and mobile devices, monitors, high-definition visualization technologies, and video conferencing.</p>
+
+<p>Enable LSU to recruit the best students and faculty by offering an inspiring learning environment that is also comfortable, safe, and open at all hours. It will also feature an array of academic support services such as research and writing assistance, tutoring, and IT support. </p>
+
+<p>Reaffirm the university’s commitment to the excellence in learning and research that lie at the heart of its academic mission. </p>
 
 
 

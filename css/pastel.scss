@@ -2507,14 +2507,23 @@ span.whitebg {
 
 
 .textBody3{
-    @extend .textBody;
-h2 {
-    margin: 0px;
-}
+  @extend .textBody;
+  h2 {
+  margin: 0px;
+  }
 
-h3{
-      margin-bottom: 40px;
-}
+  h3{
+  margin-bottom: 40px;
+  }
+
+  p::before{
+    content: '';
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background: #474747;
+    margin-right: 10px;
+  }
 
 }
 

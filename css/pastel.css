@@ -2469,6 +2469,14 @@ span.whitebg {
 .textBody3 h3 {
   margin-bottom: 40px;
 }
+.textBody3 p::before {
+  content: '';
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  background: #474747;
+  margin-right: 10px;
+}
 
 h3 {
   margin: 0px;
