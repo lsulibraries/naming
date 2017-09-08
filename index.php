@@ -332,7 +332,24 @@ Draft architectural plans for a renovated Middleton Library contain a variety of
 The initiative to revitalize Middleton Library is estimated to be a $8,650,000 campaign, which will fund modern furnishings, state-of-the-art technology and construction. Your generous support will make reaching this goal possible. Every gift counts in our effort to create a 21st century library for the LSU community and the state of Louisiana.
 
     </div></div>
+      </div>
 
+
+    <div class="textBody2">
+    <div class="textContainer">
+      <h2>DEAR FRIENDS,</h2>
+    <div class="textContent">
+I am pleased to announce our newest initiative at LSU: a campaign to renovate Troy H. Middleton Library, the centerpiece of our research library complex.<br><br>
+Middleton Library is one of the most visited facilities on the campus and houses LSU’s most frequently accessed academic assets, which is an indication that the library is still at the heart of academic life. The plan is to modernize components of Middleton Library with an eye toward developing spaces conductive to student collaboration and bolstering research support mechanisms.<br><br>
+A renovated Middleton Library will enable LSU to attract and retain the most talented students and faculty in the years to come, to conduct meaningful research and to advance our reputation as a leading university in the country. I sincerely hope that the community and friends of LSU will stand with me and generously support this initiative. 
+<br><br>
+With warm regards,
+<br><img class='signature' src='images/fkingsign.png'><img class="photo" src="images/fkingphoto.png"><br>
+F. King Alexander<br>
+LSU President
+
+    </div></div>
+      </div>
 
             <div class="libFooter">
           <div class="leftFooter">
@@ -359,7 +376,6 @@ The initiative to revitalize Middleton Library is estimated to be a $8,650,000 c
         </div>
 
     </div>
-      </div>
 
   <nav id="about">
     <ul>

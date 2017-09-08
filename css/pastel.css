@@ -2433,31 +2433,35 @@ span.whitebg {
   font-weight: 700;
 }
 
-.textBody {
+.textBody, .textBody2 {
   background: white;
   padding: 5% 10% 5% 10%;
   position: relative;
   display: flex;
   flex-direction: column;
 }
-.textBody .textContainer {
+.textBody .textContainer, .textBody2 .textContainer {
   max-width: 1000px;
   align-self: center;
 }
-.textBody h2 {
+.textBody h2, .textBody2 h2 {
   color: #474747;
   font-weight: 700;
   font-size: 50px;
 }
-.textBody h3 {
+.textBody h3, .textBody2 h3 {
   font-size: 26px;
+}
+
+.textBody2 {
+  background: #d0d0d0;
 }
 
 h3 {
   margin: 0px;
 }
 
-.textBody::before {
+.textBody::before, .textBody2::before {
   content: '';
   border-left: 25px solid transparent;
   border-right: 25px solid transparent;
@@ -2466,7 +2470,25 @@ h3 {
   top: -20px;
 }
 
+.textBody2::before {
+  content: '';
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-bottom: 35px solid #d0d0d0;
+  position: absolute;
+  top: -20px;
+}
+
 .textContent {
   font-size: 16px;
   line-height: 30px;
+  position: relative;
+}
+
+img.photo {
+  position: absolute;
+  width: 430px;
+  height: auto;
+  bottom: -200px;
+  right: 0px;
 }
