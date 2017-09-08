@@ -320,13 +320,19 @@ givetolibraries@lsu.edu</div>
 
     </div>
     <div class="textBody">
-      <h3> Middleton Library Renovations</h3>
-    <div class="textContent"><br>
-The Middleton Library renovations campaign is one of LSU's most exciting priorities of the 2017-2018 academic year. A revitalized Middleton Library will immediately elevate LSU's academic experience and intellectual life, and strengthen the university's ability to attract and retain the brightest and most talented students and faculty. Below is a list of nameable spaces scheduled for renovation. It is the generosity of supporters like you that will enable LSU to transform Middleton Library into a 21st century research library.<br><br>
+    <div class="textContainer">
+      <h3> The Campaign to Revitalize</h3>
+      <h2>MIDDLETON LIBRARY</h2>
+    <div class="textContent">
+Originally built in the 1950s, Middleton Library has dutifully served as the heart of LSU’s intellectual life for more than half a century. Generations of students and faculty have thrived within its walls and benefited from its collections. 
+<br><br>
+Every day, LSU Libraries fulfills its mission to serve the scholastic needs of LSU students, faculty and patrons by collecting and providing access to a broad array of materials, such as print and digital collections, manuscripts, journals, oral histories, archives and university research. The work and mission of the Libraries enables important research in a variety of fields and supports scholars who endeavor to make our lives and world better through education. <br><br>
+Middleton Library attracts an impressive 1.1 million visits every year. But despite serving as the most sought-out study space on campus, Library facilities are in dire need of major renovations. In response to this critical need, LSU leadership in collaboration with the LSU Foundation, has launched the much-awaited campaign to revitalize Middleton Library. <br><br>
+Draft architectural plans for a renovated Middleton Library contain a variety of innovative spaces to suit students’ needs. Whether it’s the traditional reading room, technology promenade or collaboration area, there will be a space for every student to experience meaningful learning and a sense of community. <br><br>
+The initiative to revitalize Middleton Library is estimated to be a $8,650,000 campaign, which will fund modern furnishings, state-of-the-art technology and construction. Your generous support will make reaching this goal possible. Every gift counts in our effort to create a 21st century library for the LSU community and the state of Louisiana.
 
-A revitalized Middleton Library will enable LSU to advance its core mission of promoting outstanding teaching, learning and research. To find out more about how you can help support this important initiative, visit lib.lsu.edu/naming or contact LSU Libraries Development Office.
+    </div></div>
 
-    </div>
 
             <div class="libFooter">
           <div class="leftFooter">
@@ -353,7 +359,6 @@ A revitalized Middleton Library will enable LSU to advance its core mission of p
         </div>
 
     </div>
-
       </div>
 
   <nav id="about">
